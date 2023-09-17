@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faLaptopCode , faFileLines} from '@fortawesome/free-solid-svg-icons';
 import '../styles.css'
+import image from '../assets/Images/Oluwadahunsi.jpeg'
 
 
 
@@ -42,7 +43,7 @@ function Homepage() {
                 </div>
 
                 <div className='justify-self-start  w-3/4 border-2  rounded-full'>
-                    <img src="src/assets/Images/Oluwadahunsi.jpeg" className=' hover:translate-x-12  w-3/4 rounded-full    border-r-4' alt=" Gbenga Oluwadahunsi picture" />
+                    <img src= {image} className=' hover:translate-x-12 transition delay-150 duration-300 ease-in-out w-3/4 rounded-full ' alt=" Gbenga Oluwadahunsi picture" />
                    
                 </div>
                
