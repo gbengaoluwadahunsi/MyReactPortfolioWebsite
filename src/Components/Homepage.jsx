@@ -14,8 +14,7 @@ function Homepage() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-   
-
+    
   };
   
 
@@ -26,7 +25,7 @@ function Homepage() {
       <header>
       <div className="grid grid-cols-2  px-16 py-10">
         <span className="text-3xl inline-block font-extrabold text-rose-600 justify-self-start">Pollécode</span>
-        <div id="clicko" className="text-3xl inline-block font-extrabold text-rose-600 justify-self-end" onClick={toggleMenu}>
+        <div id="clicko" className="text-3xl inline-block font-extrabold text-rose-600 justify-self-end cursor-pointer" onClick={toggleMenu}>
           {isOpen ? (
             <span>&times;</span>
           ) : (
