@@ -1,4 +1,4 @@
-import { faArrowAltCircleRight, faArrowRight, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import {  faArrowRightLong, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  { useState } from 'react';
 
@@ -14,7 +14,10 @@ function Homepage() {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+   
+
   };
+  
 
   return (
     <>
@@ -23,11 +26,9 @@ function Homepage() {
       <header>
       <div className="grid grid-cols-2  px-16 py-10">
         <span className="text-3xl inline-block font-extrabold text-rose-600 justify-self-start">Pollécode</span>
-        <div className="text-3xl inline-block font-extrabold text-rose-600 justify-self-end" onClick={toggleMenu}>
+        <div id="clicko" className="text-3xl inline-block font-extrabold text-rose-600 justify-self-end" onClick={toggleMenu}>
           {isOpen ? (
-            <svg className="w-6 h-50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
+            <span>&times;</span>
           ) : (
             <div className='grid grid-rows-2 gap-2'>
               <div className="w-10 h-1 mb-1 bg-rose-600"></div>
@@ -50,7 +51,7 @@ function Homepage() {
 
 
   
-      <main className=" grid  grid-rows-2 mt-4 place-items-center   ">
+      <main className=" grid  grid-rows-2 place-items-center   ">
             <div className="text-8xl text-center">
               <div className="my-6 text-rose-600">
                 <span className=" text-white key">F</span>
@@ -84,13 +85,14 @@ function Homepage() {
               
 
                 <div className="flex justify-center items-center  mt-4 space-x-2">
-                  <div className="p-3 text-slate-950  w-1/4 font-bold text-xl inline-block rounded bg-rose-600 hover:text-white cursor-pointer">
+                  <div className="p-3 text-slate-950  w-1/4 font-bold text-xl flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-white cursor-pointer">
                         <span >My Projects </span>
-                        <FontAwesomeIcon icon={faLongArrowAltRight}/>
+                        <FontAwesomeIcon icon={faArrowRightLong} size='lg'/>
                   </div>
-                 <div className="p-3 text-slate-950 w-1/4 font-bold text-xl inline-block  rounded bg-rose-600 hover:text-white cursor-pointer"> 
+                 <div className="p-3 text-slate-950 w-1/4 font-bold text-xl  flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-white cursor-pointer"> 
                     <span >Résumé </span>
-                    <FontAwesomeIcon icon={faLongArrowAltRight} />
+                    <FontAwesomeIcon icon={faArrowRightLong} size='lg'  />
+                  
                  
                  </div>
                 </div>
