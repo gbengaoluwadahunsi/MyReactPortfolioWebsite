@@ -76,7 +76,7 @@ function Homepage() {
               </div>
             </div>
 
-            <div>
+            <div className='-mt-16'>
               
                   <h3 className="font-semibold  w-2/3   mx-auto  text-center text-xl ">
                     I flourish at building and shipping innovative digital products that solve real-time world problems.
