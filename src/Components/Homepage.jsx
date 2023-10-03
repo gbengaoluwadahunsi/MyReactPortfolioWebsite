@@ -1,4 +1,7 @@
+import { faArrowAltCircleRight, faArrowRight, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  { useState } from 'react';
+
 
 function Homepage() {
 
@@ -22,7 +25,7 @@ function Homepage() {
         <span className="text-3xl inline-block font-extrabold text-rose-600 justify-self-start">Pollécode</span>
         <div className="text-3xl inline-block font-extrabold text-rose-600 justify-self-end" onClick={toggleMenu}>
           {isOpen ? (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-6 h-50" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           ) : (
@@ -47,7 +50,7 @@ function Homepage() {
 
 
   
-      <main className=" grid  grid-rows-2 mt-8 place-items-center   ">
+      <main className=" grid  grid-rows-2 mt-4 place-items-center   ">
             <div className="text-8xl text-center">
               <div className="my-6 text-rose-600">
                 <span className=" text-white key">F</span>
@@ -81,8 +84,15 @@ function Homepage() {
               
 
                 <div className="flex justify-center items-center  mt-4 space-x-2">
-                  <span className="p-3 text-slate-950 font-bold text-xl inline-block rounded bg-rose-600 hover:text-white cursor-pointer">My Projects </span>
-                  <span className="p-3 text-slate-950 font-bold text-xl inline-block rounded bg-rose-600 hover:text-white cursor-pointer">Résumé </span>
+                  <div className="p-3 text-slate-950  w-1/4 font-bold text-xl inline-block rounded bg-rose-600 hover:text-white cursor-pointer">
+                        <span >My Projects </span>
+                        <FontAwesomeIcon icon={faLongArrowAltRight}/>
+                  </div>
+                 <div className="p-3 text-slate-950 w-1/4 font-bold text-xl inline-block  rounded bg-rose-600 hover:text-white cursor-pointer"> 
+                    <span >Résumé </span>
+                    <FontAwesomeIcon icon={faLongArrowAltRight} />
+                 
+                 </div>
                 </div>
               
             </div>
