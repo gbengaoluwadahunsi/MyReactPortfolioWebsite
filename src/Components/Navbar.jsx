@@ -48,7 +48,7 @@ function Navbar() {
            <img src={Image}  className=" w-2/5 rounded-full  cursor-pointer bg-slate-950 hover:border-rose-600 border-4"  alt="Gbenga Oluwadahunsi picture" />
            </div>
 
-            <div className=" row-span-4 grid grid-cols-1 gap-1 text-lg  menu">
+            <div className=" row-span-4 grid grid-cols-1 gap-1   menu">
               <span href="#" className="font-bold">My Works</span>
               <span href="#" className="font-bold">Meet Me</span>
               <span href="#" className="font-bold">My Skillset</span>

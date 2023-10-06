@@ -13,7 +13,7 @@ function Homepage() {
   return (
     <>
     
-     <main className=" grid  grid-rows-2 place-items-center">
+     <main className=" row-span-5 grid  grid-rows-2 place-items-center">
             <div className="text-8xl text-center">
               <div className="my-6 text-rose-600">
                 <span className=" text-slate-100 key">F</span>

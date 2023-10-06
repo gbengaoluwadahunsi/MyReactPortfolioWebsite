@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
 
-      <div className=" h-screen bg-slate-950">  
+      <div className=" h-screen grid grid-rows-6  bg-slate-950">  
             <Navbar />
             <Homepage />
             
