@@ -1,59 +1,22 @@
-import {  faArrowRightLong, faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import {  faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  { useState } from 'react';
+
+
+
+
 
 
 function Homepage() {
 
-  const [showNav, setShowNav] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleNav = () => {
-    setShowNav(!showNav);
-  };
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    
-  };
   
 
   return (
     <>
     
-      <div className=" h-screen bg-slate-950">
-      <header>
-      <div className="grid grid-cols-2  px-16 py-10">
-        <span className="text-3xl inline-block font-extrabold text-rose-600 justify-self-start">Pollécode</span>
-        <div id="clicko" className="text-3xl inline-block font-extrabold text-rose-600 justify-self-end cursor-pointer" onClick={toggleMenu}>
-          {isOpen ? (
-            <span>&times;</span>
-          ) : (
-            <div className='grid grid-rows-2 gap-2'>
-              <div className="w-10 h-1 mb-1 bg-rose-600"></div>
-              <div className="w-6 h-1 justify-self-end bg-rose-600"></div>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {showNav && (
-        <nav className="grid grid-cols-1 bg-slate-50 w-2/3 p-8">
-          <a href="#" className="text-rose-600">Home</a>
-          <a href="#" className="text-rose-600">About</a>
-          <a href="#" className="text-rose-600">Projects</a>
-          <a href="#" className="text-rose-600">Resume</a>
-          <a href="#" className="text-rose-600">Contact</a>
-        </nav>
-      )}
-    </header>
-
-
-  
-      <main className=" grid  grid-rows-2 place-items-center   ">
+     <main className=" grid  grid-rows-2 place-items-center">
             <div className="text-8xl text-center">
               <div className="my-6 text-rose-600">
-                <span className=" text-white key">F</span>
+                <span className=" text-slate-100 key">F</span>
                 <span className="key">R</span>
                 <span className="key">O</span>
                 <span className="key">N</span>
@@ -72,7 +35,7 @@ function Homepage() {
                 <span className="key">O</span>
                 <span className="key">P</span>
                 <span className="key">E</span>
-                <span className="key text-white">R</span>
+                <span className="key text-slate-100">R</span>
               </div>
             </div>
 
@@ -84,13 +47,13 @@ function Homepage() {
               
 
                 <div className="flex justify-center items-center  mt-4 space-x-2">
-                  <div className="p-3 text-slate-950  w-1/4 font-bold text-xl flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-white cursor-pointer">
-                        <span >My Projects </span>
+                  <div className="p-3 text-slate-950  w-1/4 font-bold text-xl flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer">
+                        <span >My Works </span>
                         <FontAwesomeIcon icon={faArrowRightLong} size='lg'/>
                   </div>
-                 <div className="p-3 text-slate-950 w-1/4 font-bold text-xl  flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-white cursor-pointer"> 
+                 <div className="p-3 text-slate-950 w-1/4 font-bold text-xl  flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"> 
                     <span >Résumé </span>
-                    <FontAwesomeIcon icon={faArrowRightLong} size='lg'  />
+                    <FontAwesomeIcon icon={faArrowRightLong} size='lg' />
                   
                  
                  </div>
@@ -98,15 +61,7 @@ function Homepage() {
               
             </div>
           </main>
-        
-
-
-
-      </div>
-
-      <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam delectus explicabo, tempore dolores exercitationem temporibus laudantium iste beatae! Iusto, doloribus magni asperiores dolores fuga nam iste labore reiciendis accusantium porro reprehenderit recusandae ullam itaque architecto corporis illum ducimus eveniet pariatur.</div>
-    
-    
+   
     </>
   )
 }

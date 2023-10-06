@@ -156,8 +156,88 @@ body::-webkit-scrollbar {
   .key:nth-child(9) {
     animation: pressDown8 3.2s infinite;
   }  
+    
+
+  .toggle-section{
+   
+   height: 40rem;
+   padding-left: 4.2rem;
+  }
+
+  .toggle-section.hide{
+    background-color: transparent;
+    transition: ease-out 0.3s;
+  }
+
+  .navigation.menuShow {
+   display: grid;
   
+  }
+
   
+  .navigation.menuHide{
+    display: none;
+  }
+
+  /* Define animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Apply animations and delays */
+.menuShow > * {
+  animation: fadeIn 0.3s ease forwards;
+  opacity: 0;
+}
+
+.menuShow > *:nth-child(1) {
+  animation-delay: 0.3s;
+  
+}
+
+.menuShow > *:nth-child(2) {
+  animation-delay: 0.5s;
+  
+}
+
+.menuShow > *:nth-child(3) {
+  animation-delay: 0.1s;
+ 
+}
+
+
+  .toggleBar.open span:first-child {
+    transform: rotate(45deg);
+    transition: ease-out 0.5s;
+  }
+  
+  .toggleBar.open span:last-child {
+    transform: rotate(-45deg) ;
+    transition: ease-out 0.5s;
+    width: 2.5rem;
+  
+  }
+
+  .toggleBar.close span:first-child {
+    transform: rotate(0deg);
+    transition: ease-out 0.5s;
+  }
+  
+  .toggleBar.close span:last-child {
+    transform: rotate(0deg) ;
+    transition: ease-out 0.5s;
+  }
+
+  .menu span{
+    cursor: pointer;
+    width: fit-content;
+  
+  }
+
+ .menu span:hover {
+    text-shadow: 10px 10px 10px   rgb(225 29 72); 
+  }
   
   
   .footer{
