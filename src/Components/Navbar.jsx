@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <header>
       <div className="grid grid-cols-2 px-16 p-10">
-        <span className="text-3xl inline-block font-extrabold p-6 text-rose-600 justify-self-start">Pollécode</span>
+        <span className="text-3xl inline-block font-extrabold p-6 text-rose-600 justify-self-start">Gbénga</span>
 
         <div ref={navigationRef} className={`grid grid-rows-7 absolute bg-slate-100 justify-self-end w-1/4 z-50 pr-6 py-6 toggle-section ${isMenuOpen ? 'show' : 'hide'}`}>
           <div className={`grid grid-cols-1 gap-1 text-3xl h-4 w-10 font-extrabold justify-self-end cursor-pointer toggleBar ${isMenuOpen ? 'open' : 'close'}`} onClick={toggleMenu}>
