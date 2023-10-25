@@ -73,7 +73,7 @@ const Homepage = () => {
             
              <div className=' py-8 px-16 text-justify'>
               <h2 className='font-extrabold text-5xl '>My Coding Xperience</h2>
-             <div className='grid grid-rows-1  text-xl gap-6 py-6'>
+             <div className='grid grid-rows-1  text-xl gap-6 py-5'>
              <p>
               I started out in my career in  the  field of Bioinformatics and Biochemistry with over 8 years of experience as a university lecturer, after discovering my passion for building web and mobile applications two years ago.               
               </p>
