@@ -2,7 +2,9 @@
 import './App.css'
 import './styles.css'
 import Homepage from './Components/Homepage'
-import Navbar from './Components/Navbar'
+import { Routes, Route } from 'react-router-dom'
+import  myWorks from   './Components/My-works'
+
 
 
 
@@ -14,12 +16,14 @@ const App = () => {
   return (
     <>
 
-      <div className=" h-screen grid grid-rows-6  bg-slate-950">  
-            <Navbar />
-            <Homepage />
-            
-            
-        </div>    
+      <div className=" h-full  grid grid-rows-4 background">  
+          <Homepage />
+          <Routes>
+          <Route  exact path='/' Component={Homepage }/>
+            <Route path='/myWorks' Component={myWorks}/>
+          </Routes>
+      </div>    
+
     </>
   )
 }
