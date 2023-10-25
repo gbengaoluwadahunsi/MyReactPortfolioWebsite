@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { FaLinkedin , FaXTwitter , FaGithub, FaEnvelope } from 'react-icons/fa6';
 import Navbar from './Navbar';
+import image from  '../assets/Images/software-codes.jpg'
+import imageApi  from  '../assets/Images/Api.png'
+
 
 
 
@@ -66,7 +69,46 @@ const Homepage = () => {
             </div>
             
           </main>
-          <section className='h-96 bg-white'>LETS CONNECT</section>
+          <section className='bg-white color grid grid-cols-2 '>
+            
+             <div className=' py-8 px-16 text-justify'>
+              <h2 className='font-extrabold text-5xl '>My Coding Xperience</h2>
+             <div className='grid grid-rows-1  text-xl gap-6 py-10'>
+             <p>
+              I started out in my career in  the  field of Bioinformatics and Biochemistry with over 8 years of experience as a university lecturer, after discovering my passion for building web and mobile applications two years ago.               
+              </p>
+              <p>I went on  a learning spree and  acquired the skills that shaped me into an astute frontend developer.</p>
+              <p> I&apos;m dedicated to delivering seamless projects that meet the needs of employers and their clients,currently learning backend technologies  and databases.</p>
+              
+             </div>
+            </div>
+            <img src={image} alt="software codes" />
+          </section>
+
+          <section className='techStack bg-background  grid grid-rows-3 px-16  py-10'>
+          <section className=''>
+            <h2 className='font-extrabold text-5xl text-rose-600  '>My Tech Stacks</h2>
+            
+            <p className='text-xl pt-6'>For my projects, I have leveraged a combination of HTML5, CSS3, vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js, MongoDB, and React.js to develop robust and dynamic web applications.</p>
+          
+          </section>
+          
+          <div className=' row-span-2 grid grid-cols-4 gap-16'>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+                <img src={imageApi} alt="API icon"/>
+               
+          </div>
+              
+        
+          
+          
+          </section>
   
           <footer className=' grid grid-rows-4 px-20 py-10 text-xl bg-slate-950 footer-height'>
 
@@ -75,9 +117,9 @@ const Homepage = () => {
                   <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer">Gbénga</span>
 
                   <div className="  grid grid-cols-1 gap-4 h-12 menu">
-                  <span href="#" className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
-                  <span href="#" className="font-bold">Résumé</span>
-                  <span href="#" className="font-bold">My Skillset</span>
+                  <span  className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
+                  <span  className="font-bold">Résumé</span>
+                  <span  className="font-bold">My Skillset</span>
                   </div>
                 </section>
                 
