@@ -51,9 +51,9 @@ function Navbar() {
            </div>
 
             <div className=" row-span-4 grid grid-cols-1 gap-1   menu">
-              <span href="#" className="font-bold"><Link className="color" to ="/myWorks">My Works</Link></span>
-              <span href="#" className="font-bold">Résumé</span>
-              <span href="#" className="font-bold">My Skillset</span>
+              <span href="#" className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
+              <span href="#" className="font-bold"><Link to= "/resume">Résumé</Link></span>
+              <span href="#" className="font-bold"><Link to= "/mySkillset">My Skillset</Link></span>
             </div>
 
             <div className=" row-span-2  flex flex-row space-x-4 text-lg menuClass">
