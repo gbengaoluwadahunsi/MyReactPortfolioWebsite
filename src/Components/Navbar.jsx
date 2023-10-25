@@ -51,7 +51,7 @@ function Navbar() {
            </div>
 
             <div className=" row-span-4 grid grid-cols-1 gap-1   menu">
-              <span href="#" className="font-bold"><Link className="color" to = "/myWorks">My Works</Link></span>
+              <span href="#" className="font-bold"><Link className="color" to ="/myWorks">My Works</Link></span>
               <span href="#" className="font-bold">Résumé</span>
               <span href="#" className="font-bold">My Skillset</span>
             </div>
