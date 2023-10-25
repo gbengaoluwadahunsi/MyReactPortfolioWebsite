@@ -73,7 +73,7 @@ const Homepage = () => {
             
              <div className=' py-8 px-16 text-justify'>
               <h2 className='font-extrabold text-5xl '>My Coding Xperience</h2>
-             <div className='grid grid-rows-1  text-xl gap-6 py-10'>
+             <div className='grid grid-rows-1  text-xl gap-6 py-6'>
              <p>
               I started out in my career in  the  field of Bioinformatics and Biochemistry with over 8 years of experience as a university lecturer, after discovering my passion for building web and mobile applications two years ago.               
               </p>
@@ -87,7 +87,7 @@ const Homepage = () => {
 
           <section className='techStack bg-background  grid grid-rows-3 px-16  py-10'>
           <section className=''>
-            <h2 className='font-extrabold text-5xl text-rose-600  '>My Tech Stacks</h2>
+            <h2 className='font-extrabold text-5xl text-rose-600  '>My Tech Stack</h2>
             
             <p className='text-xl pt-6'>For my projects, I have leveraged a combination of HTML5, CSS3, vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js, MongoDB, and React.js to develop robust and dynamic web applications.</p>
           
