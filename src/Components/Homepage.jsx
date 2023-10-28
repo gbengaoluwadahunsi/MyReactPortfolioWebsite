@@ -1,10 +1,19 @@
 import {  faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+// import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from "react-router-dom";
 import { FaLinkedin , FaXTwitter , FaGithub, FaEnvelope } from 'react-icons/fa6';
 import Navbar from './Navbar';
 import image from  '../assets/Images/software-codes.jpg'
 import imageApi  from  '../assets/Images/Api.png'
+import imageHTML  from  '../assets/Images/HTML.png'
+import imageCSS  from  '../assets/Images/styler.png'
+import imageJscript  from  '../assets/Images/Javascript.png'
+import imageGit  from  '../assets/Images/Githubb.png'
+import imageReactty  from  '../assets/Images/React.png'
+import imageNodeJS  from  '../assets/Images/NodeJS.png'
+import imagePython  from  '../assets/Images/Python.png'
+import imageTailwind  from  '../assets/Images/tailwind.png'
 
 
 
@@ -18,9 +27,9 @@ const Homepage = () => {
   return (
     <>
 
-     <Navbar />
+     <Navbar id='top' />
     
-     <main className=" row-span-3 grid -mt-12 grid-rows-2 place-items-center">
+     <main className=" row-span-3 grid -mt-12 grid-rows-2 place-items-center" >
             <div className="text-8xl text-center">
               <div className="my-6 text-rose-600">
                 <span className=" text-slate-100 key">F</span>
@@ -69,16 +78,16 @@ const Homepage = () => {
             </div>
             
           </main>
-          <section className='bg-white color grid grid-cols-2 '>
+          <section className='bg-white color grid grid-cols-2'>
             
-             <div className=' py-8 px-16 text-justify'>
+             <div className=' py-8 px-16 text-justify '>
               <h2 className='font-extrabold text-5xl '>My Coding Xperience</h2>
-             <div className='grid grid-rows-1  text-xl gap-6 py-5'>
+             <div className='grid grid-rows-1  text-xl gap-6 mt-16'>
              <p>
-              I started out in my career in  the  field of Bioinformatics and Biochemistry with over 8 years of experience as a university lecturer, after discovering my passion for building web and mobile applications two years ago.               
+              I started out in my career in  the  field of Biochemistry with over 8 years of experience as a university lecturer, I was interested in Bioinformatics and starting taking some courses on it unitl I discovered that I had a flair  for building web and mobile applications, it was at that moment I decided to pursue the software development route.                
               </p>
-              <p>I went on  a learning spree and  acquired the skills that shaped me into an astute frontend developer.</p>
-              <p> I&apos;m dedicated to delivering seamless projects that meet the needs of employers and their clients,currently learning backend technologies  and databases.</p>
+              <p>I went on  a learning spree and  acquired the skills that shaped me into an astute frontend developer,I&apos;m dedicated to delivering seamless projects that meet the needs of employers and their clients and currently learning backend technologies  and databases.</p>
+              
               
              </div>
             </div>
@@ -93,15 +102,16 @@ const Homepage = () => {
           
           </section>
           
-          <div className=' row-span-2 grid grid-cols-4 gap-16'>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
-                <img src={imageApi} alt="API icon"/>
+          <div className=' row-span-2 grid grid-cols-3 place-items-center gap-16'>
+                <img src={imageHTML} alt="HTML5 icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageCSS} alt="CSS3 icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageJscript} alt="Javascript icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imagePython} alt="Python icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageGit} alt="GitHub icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageReactty} alt="React.jsicon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageNodeJS} alt="nodeJS icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageTailwind} alt="Tailwindcss icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
+                <img src={imageApi} alt="API icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
                
           </div>
               
@@ -114,12 +124,12 @@ const Homepage = () => {
 
 
                 <section className='row-span-3 grid grid-cols-2 border-b-4 border-rose-600 '>
-                  <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer">Gbénga</span>
-
+                  <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link>Gbénga</Link></span>
+                  {/* <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link className="" to="top" smooth={true} duration={500} onClick={() => scroll.scrollToTop()}>Gbénga</Link></span> */}
                   <div className="  grid grid-cols-1 gap-4 h-12 menu">
-                  <span  className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
-                  <span  className="font-bold">Résumé</span>
-                  <span  className="font-bold">My Skillset</span>
+                    <span className="font-bold"><Link to = "/myworks">My Works</Link></span>
+                    <span  className="font-bold">Résumé</span>
+                    <span  className="font-bold">My Skillset</span>
                   </div>
                 </section>
                 

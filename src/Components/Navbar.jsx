@@ -36,7 +36,7 @@ function Navbar() {
   return (
     <header className="">
       <div className="grid grid-cols-2 px-16 p-10">
-        <span className="text-3xl inline-block font-extrabold p-6 text-rose-600 justify-self-start ">Gbénga</span>
+        <span className="text-3xl inline-block font-extrabold p-6 text-rose-600 justify-self-start  cursor-pointer">Gbénga</span>
 
         <div ref={navigationRef} className={`grid grid-rows-7 fixed bg-slate-100 justify-self-end w-1/4 z-50 pr-6 py-6 toggle-section ${isMenuOpen ? 'show' : 'hide'}`}>
           <div className={`grid grid-cols-1 gap-1 text-3xl h-4 w-10 font-extrabold justify-self-end cursor-pointer toggleBar ${isMenuOpen ? 'open' : 'close'}`} onClick={toggleMenu}>
@@ -51,9 +51,9 @@ function Navbar() {
            </div>
 
             <div className=" row-span-4 grid grid-cols-1 gap-1   menu">
-              <span href="#" className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
-              <span href="#" className="font-bold"><Link to= "/resume">Résumé</Link></span>
-              <span href="#" className="font-bold"><Link to= "/mySkillset">My Skillset</Link></span>
+              <span  className="font-bold"><Link  to ="/myworks">My Works</Link></span>
+              <span  className="font-bold"><Link to= "/resume">Résumé</Link></span>
+              <span  className="font-bold"><Link to= "/mySkillset">My Skillset</Link></span>
             </div>
 
             <div className=" row-span-2  flex flex-row space-x-4 text-lg menuClass">

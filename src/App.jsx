@@ -19,7 +19,7 @@ const App = () => {
       <div className=" h-full  grid grid-rows-4 background">  
           <Routes>
           <Route  exact path='/' Component={Homepage }/>
-            <Route path='/myWorks' Component={myWorks}/>
+            <Route path='/myworks' Component={myWorks}/>
           </Routes>
       </div>    
 
