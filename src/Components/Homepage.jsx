@@ -2,7 +2,6 @@ import {  faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { Link, animateScroll as scroll } from 'react-scroll';
 import { Link } from "react-router-dom";
-import { FaLinkedin , FaXTwitter , FaGithub, FaEnvelope } from 'react-icons/fa6';
 import Navbar from './Navbar';
 import image from  '../assets/Images/software-codes.jpg'
 import imageApi  from  '../assets/Images/Api.png'
@@ -15,6 +14,7 @@ import imageNodeJS  from  '../assets/Images/NodeJS.png'
 import imagePython  from  '../assets/Images/Python.png'
 import imageTailwind  from  '../assets/Images/tailwind.png'
 import ContactForm from './Contactform';
+import Footer from './Footer';
 
 
 
@@ -63,10 +63,12 @@ const Homepage = () => {
               
 
                 <div className="flex justify-center items-center  mt-4 space-x-2">
-                  <div className="p-3 text-customBlue  lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer">
-                  <span  className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
+                  <Link to="/myworks" className="p-3 text-customBlue  lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer">
+                  
+                        <span  className="font-bold">My Works</span>
                         <FontAwesomeIcon icon={faArrowRightLong} size='lg'/>
-                  </div>
+                  
+                  </Link>
                  <div className="p-3 text-customBlue lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row  gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"> 
                     <span >Résumé </span>
                     <FontAwesomeIcon icon={faArrowRightLong} size='lg' />
@@ -84,7 +86,7 @@ const Homepage = () => {
               <h2 className=' text-center  font-extrabold md:text-2xl lg:text-5xl'>My Coding Xperience</h2>
               <div className='grid grid-rows-3 lg:gap-8 lg:text-xl  mt-4 lg:mt-14'>
                 <p>With about ten years of experience as a university lecturer, I began my career in the field of biochemistry. </p>
-                <p>I took some bioinformatics courses because I was interested in the field. When I realized that I wanted to create web and mobile applications, that&apos;s when I decided to go into software development.</p>           
+                <p>I took some bioinformatics courses because I was interested in the field, after realizing I wanted to create web and mobile applications, that&apos;s when I decided to go into software development.</p>           
                 <p>I went on a learning binge and picked up the skills that helped me become a sharp front-end developer. I&apos;m committed to completing projects that are easy to work on and satisfy clients and employers, and I&apos;m currently learning databases and back-end technologies.</p>
                   
               
@@ -113,42 +115,13 @@ const Homepage = () => {
                   <img src={imageApi} alt="API icon" className=' hover:rounded-full hover:bg-white p-2'/>
                 
              </div>
-          </section>
-          
-          
-              
+          </section>              
 
           <ContactForm/>
+          <Footer />
+
   
-          <footer className='grid grid-rows-4 px-20 py-10  text-sm lg:text-xl bg-slate-950 h-64 lg:h-footer-height'>
-
-
-                <section className='row-span-3 grid grid-cols-2 border-b-4 border-rose-600 '>
-                  <span className="text-xl lg:text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link>Gbénga</Link></span>
-                  {/* <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link className="" to="top" smooth={true} duration={500} onClick={() => scroll.scrollToTop()}>Gbénga</Link></span> */}
-                  <div className="grid grid-cols-1 gap-4 h-12 menu">
-                    <span className="font-bold"><Link to = "/myworks">My Works</Link></span>
-                    <span  className="font-bold">Résumé</span>
-                  
-                  </div>
-                </section>
-                
-                
-                <section className='grid  grid-rows-2 place-items-center gap-4  md:grid-cols-2 lg:grid-cols-2  p-2 lg:p-4 h-20 text-md'>                        
-                        
-                   <span className='text-sm lg:place-self-start'>&copy; Gbenga Oluwadahunsi 2023 </span>           
-                        
-                    <div className=" flex flex-row space-x-4 text-lg menuClass lg:place-self-end   ">
-                          <span className=" cursor-pointer lg:text-2xl hover:text-rose-600">< FaLinkedin  /></span>
-                          <span className=" cursor-pointer lg:text-2xl hover:text-rose-600" ><FaXTwitter/></span>
-                          <span className="cursor-pointer lg:text-2xl hover:text-rose-600"><FaGithub /></span>
-                          <span className=" cursor-pointer lg:text-2xl hover:text-rose-600">< FaEnvelope /></span>
-                    </div>  
-                         
-                </section>
-
-          </footer>
-   
+          
     </>
   )
 }
