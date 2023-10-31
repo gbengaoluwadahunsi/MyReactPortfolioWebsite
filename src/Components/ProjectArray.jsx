@@ -7,7 +7,7 @@ const CardArray = [
       title : 'Motiva',
       menu : "Motiva",
       description : "Look up Motivational quotes and  create custom designs on shirts or share on social media.",
-      link : "gbengaoluwadahunsi.netlify.app"
+      link : "motiva.vercel.app"
       
     },
 
@@ -16,7 +16,7 @@ const CardArray = [
         title : 'DropImagery',
         menu : "DropImagery",
         description : " An image gallery website, where you can view  and save some amazing images by different photographers.",
-        link : "gbengaoluwadahunsi.netlify.app"
+        link : "drop-imagery.netlify.app/"
         
     },
 
@@ -25,14 +25,14 @@ const CardArray = [
         title : 'Tasty-Yumzie',
         menu : "Tasty Yumzie",
         description : " Food restaurant web application where customers can book reservations, order for food and drinks.",
-        link : "gbengaoluwadahunsi.netlify.app"
+        link : "tasty-yumzie.netlify.app/"
         
       },
       { id : 4,
         title: 'Gbénga',
         menu : "My Portfolio Website",
         description : "My website where I showcase my projects.",
-        link : "gbengaoluwadahunsi.netlify.app"
+        link : "gbengaoluwadahunsi.vercel.app/"
         
       },
       { id : 5,
