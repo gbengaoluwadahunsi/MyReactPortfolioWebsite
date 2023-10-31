@@ -14,6 +14,7 @@ import imageReactty  from  '../assets/Images/React.png'
 import imageNodeJS  from  '../assets/Images/NodeJS.png'
 import imagePython  from  '../assets/Images/Python.png'
 import imageTailwind  from  '../assets/Images/tailwind.png'
+import ContactForm from './Contactform';
 
 
 
@@ -21,17 +22,16 @@ import imageTailwind  from  '../assets/Images/tailwind.png'
 
 
 const Homepage = () => {
-
+   
   
-
   return (
     <>
 
      <Navbar id='top' />
     
-     <main className=" row-span-3 grid -mt-12 grid-rows-2 place-items-center" >
-            <div className="text-8xl text-center">
-              <div className="my-6 text-rose-600">
+     <main className=" lg:row-span-3  grid  grid-rows-2 lg:-mt-12 place-items-center" >
+            <div className=" text-2xl md:text-6xl lg:text-8xl text-center">
+              <div className="lg:my-6 text-rose-600">
                 <span className=" text-slate-100 key">F</span>
                 <span className="key">R</span>
                 <span className="key">O</span>
@@ -55,19 +55,19 @@ const Homepage = () => {
               </div>
             </div>
 
-            <div className='-mt-16'>
+            <div className='p-4 lg:-mt-16'>
               
-                  <h3 className="font-semibold  w-2/3   mx-auto  text-center text-xl ">
+                  <h3 className="font-semibold  lg:w-2/3   mx-auto  text-center lg:text-xl ">
                     I flourish at building and shipping innovative digital products that solve real-time world problems.
                   </h3>
               
 
                 <div className="flex justify-center items-center  mt-4 space-x-2">
-                  <div className="p-3 color  w-1/4 font-bold text-xl flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer">
-                  <span href="#" className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
+                  <div className="p-3 text-customBlue  lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer">
+                  <span  className="font-bold"><Link  to ="/myWorks">My Works</Link></span>
                         <FontAwesomeIcon icon={faArrowRightLong} size='lg'/>
                   </div>
-                 <div className="p-3 color w-1/4 font-bold text-xl  flex flex-row place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"> 
+                 <div className="p-3 text-customBlue lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row  gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"> 
                     <span >Résumé </span>
                     <FontAwesomeIcon icon={faArrowRightLong} size='lg' />
                   
@@ -78,70 +78,73 @@ const Homepage = () => {
             </div>
             
           </main>
-          <section className='bg-white color grid grid-cols-2'>
+          <section className=' bg-slate-200 text-customBlue grid  lg:grid-cols-2'>
             
-             <div className=' py-8 px-16 text-justify '>
-              <h2 className='font-extrabold text-5xl '>My Coding Xperience</h2>
-             <div className='grid grid-rows-1  text-xl gap-6 mt-16'>
-             <p>
-              I started out in my career in  the  field of Biochemistry with over 8 years of experience as a university lecturer, I was interested in Bioinformatics and starting taking some courses on it unitl I discovered that I had a flair  for building web and mobile applications, it was at that moment I decided to pursue the software development route.                
-              </p>
-              <p>I went on  a learning spree and  acquired the skills that shaped me into an astute frontend developer,I&apos;m dedicated to delivering seamless projects that meet the needs of employers and their clients and currently learning backend technologies  and databases.</p>
+            <div className=' py-4 px-8 lg:px-16 text-justify '>
+              <h2 className=' text-center  font-extrabold md:text-2xl lg:text-5xl'>My Coding Xperience</h2>
+              <div className='grid grid-rows-3 lg:gap-8 lg:text-xl  mt-4 lg:mt-14'>
+                <p>With about ten years of experience as a university lecturer, I began my career in the field of biochemistry. </p>
+                <p>I took some bioinformatics courses because I was interested in the field. When I realized that I wanted to create web and mobile applications, that&apos;s when I decided to go into software development.</p>           
+                <p>I went on a learning binge and picked up the skills that helped me become a sharp front-end developer. I&apos;m committed to completing projects that are easy to work on and satisfy clients and employers, and I&apos;m currently learning databases and back-end technologies.</p>
+                  
               
-              
-             </div>
+              </div>
             </div>
             <img src={image} alt="software codes" />
           </section>
 
-          <section className='techStack bg-background  grid grid-rows-3 px-16  py-10'>
-          <section className=''>
-            <h2 className='font-extrabold text-5xl text-rose-600  '>My Tech Stack</h2>
+          <section className='grid  grid-rows-1 lg:grid-rows-3  px-16  py-10'>
+          
+             <div> 
+               <h2 className='font-extrabold md:text-2xl lg:text-5xl  text-rose-600 text-center'>My Tech Stack</h2>
             
-            <p className='text-xl pt-6'>For my projects, I have leveraged a combination of HTML5, CSS3, vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js, MongoDB, and React.js to develop robust and dynamic web applications.</p>
-          
+                <p className='hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6 text-rose-400 text-center'>For my projects, I have leveraged a combination of HTML5, CSS3, vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js, MongoDB, and React.js to develop robust and dynamic web applications.</p>
+              </div>
+           
+              <div className=' row-span-2 grid grid-cols-3 place-items-center mt-6 gap-10'>
+                  <img src={imageHTML} alt="HTML5 icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageCSS} alt="CSS3 icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageJscript} alt="Javascript icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imagePython} alt="Python icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageGit} alt="GitHub icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageReactty} alt="React.jsicon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageNodeJS} alt="nodeJS icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageTailwind} alt="Tailwindcss icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                  <img src={imageApi} alt="API icon" className=' hover:rounded-full hover:bg-white p-2'/>
+                
+             </div>
           </section>
           
-          <div className=' row-span-2 grid grid-cols-3 place-items-center gap-16'>
-                <img src={imageHTML} alt="HTML5 icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageCSS} alt="CSS3 icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageJscript} alt="Javascript icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imagePython} alt="Python icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageGit} alt="GitHub icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageReactty} alt="React.jsicon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageNodeJS} alt="nodeJS icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageTailwind} alt="Tailwindcss icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-                <img src={imageApi} alt="API icon" className=' hover:rounded-full hover:bg-white hover:p-2'/>
-               
-          </div>
+          
               
-        
-          
-          
-          </section>
+
+          <ContactForm/>
   
-          <footer className=' grid grid-rows-4 px-20 py-10 text-xl bg-slate-950 footer-height'>
+          <footer className='grid grid-rows-4 px-20 py-10  text-sm lg:text-xl bg-slate-950 h-64 lg:h-footer-height'>
 
 
                 <section className='row-span-3 grid grid-cols-2 border-b-4 border-rose-600 '>
-                  <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link>Gbénga</Link></span>
+                  <span className="text-xl lg:text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link>Gbénga</Link></span>
                   {/* <span className="text-3xl inline-block font-extrabold  text-rose-600 justify-self-start cursor-pointer"><Link className="" to="top" smooth={true} duration={500} onClick={() => scroll.scrollToTop()}>Gbénga</Link></span> */}
-                  <div className="  grid grid-cols-1 gap-4 h-12 menu">
+                  <div className="grid grid-cols-1 gap-4 h-12 menu">
                     <span className="font-bold"><Link to = "/myworks">My Works</Link></span>
                     <span  className="font-bold">Résumé</span>
-                    <span  className="font-bold">My Skillset</span>
+                  
                   </div>
                 </section>
                 
                 
-                <section className='grid grid-cols-2 p-4 h-4 text-md'>
-                        <span className=' '>&copy; Gbenga Oluwadahunsi 2023 </span>
-                        <div className=" flex flex-row space-x-4 text-lg menuClass justify-end">
-                          <span className="self-end cursor-pointer text-2xl hover:text-rose-600">< FaLinkedin  /></span>
-                          <span className="self-end cursor-pointer text-2xl hover:text-rose-600" ><FaXTwitter/></span>
-                          <span className="self-end cursor-pointer text-2xl hover:text-rose-600"><FaGithub /></span>
-                          <span className="self-end cursor-pointer text-2xl hover:text-rose-600">< FaEnvelope /></span>
-                        </div>               
+                <section className='grid  grid-rows-2 place-items-center gap-4  md:grid-cols-2 lg:grid-cols-2  p-2 lg:p-4 h-20 text-md'>                        
+                        
+                   <span className='text-sm lg:place-self-start'>&copy; Gbenga Oluwadahunsi 2023 </span>           
+                        
+                    <div className=" flex flex-row space-x-4 text-lg menuClass lg:place-self-end   ">
+                          <span className=" cursor-pointer lg:text-2xl hover:text-rose-600">< FaLinkedin  /></span>
+                          <span className=" cursor-pointer lg:text-2xl hover:text-rose-600" ><FaXTwitter/></span>
+                          <span className="cursor-pointer lg:text-2xl hover:text-rose-600"><FaGithub /></span>
+                          <span className=" cursor-pointer lg:text-2xl hover:text-rose-600">< FaEnvelope /></span>
+                    </div>  
+                         
                 </section>
 
           </footer>
