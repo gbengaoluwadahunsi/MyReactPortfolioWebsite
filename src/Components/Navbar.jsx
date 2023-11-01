@@ -44,25 +44,25 @@ function Navbar() {
               <img src={Image} className=" w-2/5 rounded-full  cursor-pointer bg-customBlue hover:border-rose-600 border-4" alt="Gbenga Oluwadahunsi picture" />
             </div>
 
-            <div className="row-span-4 menu">
+            <div className="row-span-4 ">
               {currentPage === "" && (
-                <>
-                  <span className="block mb-4 font-bold"><Link to="/myworks">My Works</Link></span>
-                  <span className="font-bold"><Link to="/resume">Résumé</Link></span>
-                </>
+                < div className="">
+                  <Link to="/myworks" className="block mb-4 font-bold cursor-pointer link">My Works</Link>
+                  <Link to="/resume" className="font-bold cursor-pointer link ">Résumé</Link>
+                </div>
               )}
 
               {currentPage === "myworks" && (
                 <>
-                  <span className="block mb-4 font-bold"><Link to="/">Home</Link></span>
-                  <span className="font-bold"><Link to="/resume">Résumé</Link></span>
+                  <span className="block mb-4 font-bold link"><Link to="/">Home</Link></span>
+                  <span className="font-bold link"><Link to="/resume">Résumé</Link></span>
                 </>
               )}
 
               {currentPage === "resume" && (
                 <>
-                  <span className=" block mb-4 font-boldfont-bold"><Link to="/">Home</Link></span>
-                  <span className="block mb-4 font-bold"><Link to="/myworks">My Works</Link></span>
+                  <span className=" block mb-4 font-boldfont-bold link"><Link to="/">Home</Link></span>
+                  <span className="block mb-4 font-bold link"><Link to="/myworks">My Works</Link></span>
                 </>
               )}
             </div>

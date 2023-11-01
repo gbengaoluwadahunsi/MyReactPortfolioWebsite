@@ -235,8 +235,10 @@ body::-webkit-scrollbar {
   
   }
 
- .menu span:hover {
+ .link:hover {
     text-shadow: 10px 10px 10px   rgb(225 29 72); 
+    
+   
   }
   
 

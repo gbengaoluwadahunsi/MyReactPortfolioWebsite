@@ -12,22 +12,22 @@ function Footer() {
         {currentPage === "" && (
           <div  className= "grid grid-cols-1 gap-4 h-12  font-bold menu">
             
-              <Link to="/myworks">My Works</Link>
-              <Link to="/resume">Résumé</Link>
+              <Link to="/myworks" className='link'>My Works</Link>
+              <Link to="/resume" className='link'>Résumé</Link>
           </div>
         )}
         {currentPage === "myworks" && (
           <div  className= "grid grid-cols-1 gap-4 h-12  font-bold menu">
            
-              <Link to="/">Home</Link>
-              <Link to="/resume">Résumé</Link>
+              <Link to="/" className='link'>Home</Link>
+              <Link to="/resume" className='link'>Résumé</Link>
           </div>
         )}
         {currentPage === "resume" && (
           <div  className= "grid grid-cols-1 gap-4 h-12  font-bold menu">
             
-              <Link to="/">Home</Link>
-              <Link to="/myworks">My Works</Link>
+              <Link to="/" className='link'> Home</Link>
+              <Link to="/myworks" className='link'>My Works</Link>
            
           </div>
         )}

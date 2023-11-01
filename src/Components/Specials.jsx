@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 const Specials = (props) => {
     return (
         <>
-            <div className='text-customBlue font-medium'>
+            <div className='text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  hover:-translate-x-4' >
                 <section className='bg-white grid lg:grid-rows-4 h-96 rounded-lg'>
                     <div className='row-span-3 place-self-center'>
-                        <div className='flex flex-row justify-center'>
+                        <div className='flex flex-row justify-center '>
                             {props.img ? (
                                 <img  className = "h-24 lg:h-32" src={`./Public/${props.img}`} alt={`${props.menu} Image`} />
                             ) : (
@@ -25,9 +25,9 @@ const Specials = (props) => {
                         </div>
                         <p className='  px-6 text-center mt-10'>{props.description}</p>
                     </div>
-                    <div className=' bg-customBlue rounded-b-lg text-white'>
-                        <h3>{props.menu}</h3>
-                        <span className="">{props.link}</span>
+                    <div className=' bg-customBlue  rounded-b-lg p-6 '>
+                        <h2 className='lg:text-xl text-zinc-300'>{props.menu}</h2>
+                        <span className="text-zinc-400">{props.link}</span>
                     </div>
                 
                 </section>
