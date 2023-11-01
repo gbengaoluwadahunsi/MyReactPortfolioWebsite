@@ -13,8 +13,9 @@ import imageReactty  from  '../assets/Images/React.png'
 import imageNodeJS  from  '../assets/Images/NodeJS.png'
 import imagePython  from  '../assets/Images/Python.png'
 import imageTailwind  from  '../assets/Images/tailwind.png'
-import ContactForm from './Contactform';
+
 import Footer from './Footer';
+import ContactForm from './Contactform';
 
 
 
@@ -117,7 +118,7 @@ const Homepage = () => {
              </div>
           </section>              
 
-          <ContactForm />
+          <ContactForm  />
           <Footer />
 
   
