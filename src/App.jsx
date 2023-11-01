@@ -2,8 +2,10 @@
 import './App.css'
 import './styles.css'
 import Homepage from './Components/Homepage'
-import { Routes, Route } from 'react-router-dom'
-import  myWorks from   './Components/My-works'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import  MyWorks from   './Components/My-works'
+import Resume from './Components/Resume'
+
 
 
 
@@ -12,15 +14,19 @@ import  myWorks from   './Components/My-works'
 
 const App = () => {
 
-
+  const pdfUrl = 'public/mages/GbengaDeveloper.pdf';
   return (
     <>
 
       <div className=" h-full   bg-customBlue">  
-          <Routes>
-          <Route  exact path='/' Component={Homepage }/>
-            <Route path='/myworks' Component={myWorks}/>
-          </Routes>
+          <Router>
+
+            <Routes>
+                <Route  exact path='/' element={ < Homepage />}/>
+                <Route path='/myworks' element={ < MyWorks />}/>
+                <Route path='/resume' element={<Resume pdfUrl={pdfUrl} />} />
+            </Routes>
+          </Router>
       </div>    
 
     </>
