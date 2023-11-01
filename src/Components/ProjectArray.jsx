@@ -36,7 +36,8 @@ const CardArray = [
         title: 'Gbénga',
         menu : "My Portfolio Website",
         description : "My website where I showcase my projects.",
-        link : "gbengaoluwadahunsi.vercel.app"
+        link : "gbengaoluwadahunsi.vercel.app",
+        linked : "https://gbengaoluwadahunsi.vercel.app/"
         
       },
       { id : 5,
@@ -44,7 +45,8 @@ const CardArray = [
         title : 'Haveelah-beauty',
         menu : "Haveelah Beauty",
         description : "Makeup and Beauty brand that exist to  enhance the inherent beauty of every woman.",
-        link : "haveelah-beauty.netlify.app"
+        link : "haveelah-beauty.netlify.app",
+        linked : ""
         
       },
           
