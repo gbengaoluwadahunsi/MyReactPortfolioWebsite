@@ -34,7 +34,7 @@ function Footer() {
       </section>
 
       <section className='grid  grid-rows-2 place-items-center gap-4  md:grid-cols-2 lg:grid-cols-2  p-2 lg:p-4 h-20 text-md'>
-        <span className='text-sm lg:place-self-start'>&copy; Gbenga Oluwadahunsi 2023 </span>
+        <span className='text:xs md:text-sm lg:text-sm lg:place-self-start'>&copy; Gbenga Oluwadahunsi 2023 </span>
         <div className="flex flex-row space-x-4 text-lg menuClass lg:place-self-end">
           <span className="cursor-pointer lg:text-2xl hover:text-rose-600">< FaLinkedin /></span>
           <span className="cursor-pointer lg:text-2xl hover:text-rose-600" ><FaXTwitter /></span>
