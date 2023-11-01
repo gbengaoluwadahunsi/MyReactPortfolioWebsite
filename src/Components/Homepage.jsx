@@ -15,7 +15,7 @@ import imagePython  from  '../assets/Images/Python.png'
 import imageTailwind  from  '../assets/Images/tailwind.png'
 
 import Footer from './Footer';
-import ContactForm from './Contactform';
+import ContactForm from './Contact-form';
 
 
 
