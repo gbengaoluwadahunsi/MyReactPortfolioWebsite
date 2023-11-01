@@ -9,7 +9,7 @@ const Specials = (props) => {
                     <div className='row-span-3 place-self-center'>
                         <div className='flex flex-row justify-center '>
                             {props.img ? (
-                                <img  className = "h-24 lg:h-32" src={`./public/${props.img}`} alt={`${props.menu} Image`} />
+                                <img  className = "h-24 lg:h-32" src={`Images/${props.img}`} alt={`${props.menu} Image`} />
                                 
                             ) : (
                                 <span
