@@ -7,7 +7,9 @@ const CardArray = [
       title : 'Motiva',
       menu : "Motiva",
       description : "Look up Motivational quotes and  create custom designs on shirts or share on social media.",
-      link : "motiva.vercel.app"
+      link : "motiva.vercel.app",
+      linked : "https://drop-imagery.netlify.app/"
+
       
     },
 
@@ -16,7 +18,8 @@ const CardArray = [
         title : 'DropImagery',
         menu : "DropImagery",
         description : " An image gallery website, where you can view  and save some amazing images by different photographers; demo login details: user@example.com and 1password.",
-        link : "drop-imagery.netlify.app"
+        link : "drop-imagery.netlify.app",
+        linked : "https://drop-imagery.netlify.app/"
         
     },
 
@@ -25,7 +28,8 @@ const CardArray = [
         title : 'Tasty-Yumzie',
         menu : "Tasty Yumzie",
         description : " Food restaurant web application where customers can book reservations, order for food and drinks.",
-        link : "tasty-yumzie.netlify.app"
+        link : "tasty-yumzie.netlify.app",
+        linked : "https://tasty-yumzie.netlify.app/"
         
       },
       { id : 4,
