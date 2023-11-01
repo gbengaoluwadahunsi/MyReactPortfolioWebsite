@@ -46,7 +46,7 @@ const CardArray = [
         menu : "Haveelah Beauty",
         description : "Makeup and Beauty brand that exist to  enhance the inherent beauty of every woman.",
         link : "haveelah-beauty.netlify.app",
-        linked : ""
+        linked : "https://haveelah-beauty.netlify.app/"
         
       },
           

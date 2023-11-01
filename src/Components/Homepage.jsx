@@ -87,8 +87,8 @@ const Homepage = () => {
               <h2 className=' text-center  font-extrabold md:text-2xl lg:text-5xl'>My Coding Xperience</h2>
               <div className='grid grid-rows-3 lg:text-xl  mt-4 lg:mt-14'>
                 <p>With about ten years of experience as a university lecturer, I began my career in the field of biochemistry. </p>
-                <p>I took some bioinformatics courses because I was interested in the field, after realizing I wanted to create web and mobile applications, that&apos;s when I decided to go into software development.</p>           
-                <p>I went on a learning binge and picked up the skills that helped me become a sharp front-end developer. I&apos;m committed to completing projects that are easy to work on and satisfy clients and employers, and I&apos;m currently learning databases and back-end technologies.</p>
+                <p className='-mt-4'> I took some bioinformatics courses because I was interested in the field, after realizing I wanted to create web and mobile applications, that&apos;s when I decided to go into software development.</p>           
+                <p >I went on a learning binge and picked up the skills that helped me become a sharp front-end developer. I&apos;m committed to completing projects that are easy to work on and satisfy clients and employers, and I&apos;m currently learning databases and back-end technologies.</p>
                   
               
               </div>
