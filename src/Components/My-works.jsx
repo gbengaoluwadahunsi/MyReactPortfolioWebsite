@@ -16,6 +16,7 @@ const Myworks = () => {
       img={item.img}
       menu={item.menu}
       link={item.link}
+      linked={item.linked}
       title={item.title}
       description={item.description}
 

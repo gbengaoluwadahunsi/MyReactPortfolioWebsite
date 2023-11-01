@@ -5,6 +5,8 @@ const Specials = (props) => {
     return (
         <>
             <div className='text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  hover:-translate-x-4' >
+                <a href={props.linked} target="_blank" rel="noopener noreferrer">
+
                 <section className='bg-white grid lg:grid-rows-4 h-96 rounded-lg'>
                     <div className='row-span-3 place-self-center'>
                         <div className='flex flex-row justify-center '>
@@ -33,6 +35,7 @@ const Specials = (props) => {
                     </div>
                 
                 </section>
+                </a>
             </div>
         </>
     );
@@ -43,6 +46,7 @@ Specials.propTypes = {
     img: PropTypes.string,
     menu: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
+    linked: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
 
