@@ -4,7 +4,7 @@ const Experience = [
 
  {
   id : 1,
-  title  : " MLH Global Hack Week: Open Source",
+  title  : " MLH Global Hack Week",
   year : "2023",
   description : " A detailed one week online event to techsters where I was able to learn out various open sources projects and how to become to become a contributor , I also did made my first code contribution, besides It was a time to meet with various techies across the world, learn from the amazing projects they are doing."
 
