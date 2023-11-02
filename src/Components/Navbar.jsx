@@ -68,10 +68,10 @@ function Navbar() {
             </div>
 
             <div className=" row-span-2  flex flex-row space-x-4 text-lg menuClass">
-              <span className=" cursor-pointer text-2xl hover:text-rose-600">< FaLinkedin /></span>
-              <span className=" cursor-pointer text-2xl hover:text-rose-600" ><FaXTwitter /></span>
-              <span className=" cursor-pointer text-2xl hover:text-rose-600"><FaGithub /></span>
-              <span className=" cursor-pointer text-2xl hover:text-rose-600">< FaEnvelope /></span>
+              <a href="https://linkedin.com/in/gbengaoluwadahunsi" target="_blank" rel= "noreferrer"   className="cursor-pointer text-2xl hover:text-rose-600">< FaLinkedin /></a>
+              <a  href = "https://twitter.com/gb_oluwadahunsi"  target = "_blank"  rel = "noreferrer" className=" cursor-pointer text-2xl hover:text-rose-600" ><FaXTwitter /></a>
+              <a href = "https://github.com/gbengaoluwadahunsi"  target = "_blank"  rel = "noreferrer" className=" cursor-pointer text-2xl hover:text-rose-600"><FaGithub /></a>
+              <a href = "https://gbengaoluwadahunsi01@gmail.com" target="_blank" rel = "noreferrer" className=" cursor-pointer text-2xl hover:text-rose-600">< FaEnvelope /></a>
             </div>
           </div>
         </div>

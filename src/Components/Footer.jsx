@@ -36,10 +36,10 @@ function Footer() {
       <section className='grid  grid-rows-2 place-items-center gap-4  md:grid-cols-2 lg:grid-cols-2  p-0 lg:p-4 h-20'>
         <span className=' text-xxs md:text-sm lg:text-sm lg:place-self-start'>&copy; Gbenga Oluwadahunsi 2023 </span>
         <div className=" flex flex-row space-x-4 text-lg  lg:place-self-end">
-          <span className="cursor-pointer lg:text-2xl hover:text-rose-600">< FaLinkedin /></span>
-          <span className="cursor-pointer lg:text-2xl hover:text-rose-600" ><FaXTwitter /></span>
-          <span className="cursor-pointer lg:text-2xl hover:text-rose-600"><FaGithub /></span>
-          <span className="cursor-pointer lg:text-2xl hover:text-rose-600">< FaEnvelope /></span>
+              <a href="https://linkedin.com/in/gbengaoluwadahunsi" target="_blank" rel= "noreferrer"   className="cursor-pointer text-2xl hover:text-rose-600">< FaLinkedin /></a>
+              <a  href = "https://twitter.com/gb_oluwadahunsi"  target = "_blank"  rel = "noreferrer" className=" cursor-pointer text-2xl hover:text-rose-600" ><FaXTwitter /></a>
+              <a href = "https://github.com/gbengaoluwadahunsi"  target = "_blank"  rel = "noreferrer" className=" cursor-pointer text-2xl hover:text-rose-600"><FaGithub /></a>
+              <a href = "https://gbengaoluwadahunsi01@gmail.com" target="_blank" rel = "noreferrer" className=" cursor-pointer text-2xl hover:text-rose-600">< FaEnvelope /></a>
         </div>
       </section>
     </footer>
