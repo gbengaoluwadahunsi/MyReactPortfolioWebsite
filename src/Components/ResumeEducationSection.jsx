@@ -5,8 +5,8 @@ const ResumeEducationSection = (props) =>  {
     <div>
 
         
-       <div className='flex flex-row gap-4' >
-        <span>{props.title}</span> 
+       <div className='flex flex-row my-3 gap-4' >
+        <span className='text-slate-950 font-extrabold'>{props.title}</span> 
         <span className="">{props.year}</span>
      </div>
         <h6>{props.major}</h6>

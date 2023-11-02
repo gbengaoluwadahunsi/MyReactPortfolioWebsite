@@ -1,7 +1,6 @@
 
  import { Link } from "react-router-dom"; 
 import Experience from "./ExperienceArray";
-import Card from "./ExperienceSection";
 import ResumeProjectsArray from "./ResumeProjectsArray";
 import ResumeProjectSection from "./ResumeProjectSection";
 import ContactArray from "./ContactArray";
@@ -10,13 +9,16 @@ import TechStackArray from "./TechStackArray";
 import ResumeTechStackSection from "./ResumeTechStackSection";
 import EducationArray from "./EducationArray";
 import ResumeEducationSection from "./ResumeEducationSection";
+import ExperienceSection from "./ExperienceSection";
+import GenericPdfDownloader from "./GenericPdfdownloader";
+
 
 
 
 const Resume = () =>  {
 
   const exp = Experience.map(item => (
-    <Card
+    <ExperienceSection
       key={item.id}
       year={item.year}
       title={item.title}
@@ -66,8 +68,7 @@ const Resume = () =>  {
 
     />
 
-  ))
-
+  )) 
 
   
 
@@ -75,19 +76,25 @@ const Resume = () =>  {
 
    
 	return (
+
+    
 		<div className='bg-slate-200 height  '> 
+           <GenericPdfDownloader 
+          downloadFileName="Gbenga Oluwadahunsi Resume" 
+          rootElementId="divToDownload" 
+        />
           <div className="py-10 grid grid-cols-1  mx-6 lg:mx-20"><Link to="/" className="lg:p-10 lg:text-2xl  font-extrabold place-self-end text-rose-600 ">Home</Link></div>
           <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé</h2>  
-          <main className="bg-white mt-6  mb-4 lg:mx-32 p-10 rounded grid  text-gray-800  grid-cols-5 gap-2">
+          <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32 p-10 rounded grid  text-gray-800  lg:grid-cols-7 lxl:gap-5">
             
             
-                <div className=" col-span-4 grid grid-col-1  ">
+                <div className=" col-span-5 grid grid-col-1 gap-8">
                   <div className='flex flex-col gap-2'>
                     <h2 className ="lg:text-5xl text-rose-600 font-extrabold">Gbenga Oluwadahunsi</h2>
                     <span className='font-bold   lg:w-72 rounded   lg:text-2xl'>FrontEnd Developer</span>
                   </div>
 
-                  <div className='text-xl  text-justify'>
+                  <div className='lg:text-xl  text-justify'>
                     <h5 className='font-bold text-rose-600'>SUMMARY</h5>
                     <p className='w-3/4'>                    
                       A creative, detail-oriented Front-end developer with a strong interest in Artificial Intelligence.
@@ -95,13 +102,13 @@ const Resume = () =>  {
                     </p>
                   </div>
 
-                  <div className='text-xl  text-justify'>
+                  <div className='lg:text-xl  text-justify'>
                   <h5 className='font-bold text-rose-600 '>EXPERIENCE</h5>
                   {exp}
 
                   </div>
 
-                  <div className='text-xl  text-justify flex flex-col '>
+                  <div className='lg:text-xl  text-justify flex flex-col '>
                   <h2 className='font-bold text-rose-600 '>PROJECTS</h2>
                   {resumeProjects}
                  
@@ -109,22 +116,22 @@ const Resume = () =>  {
                 </div>
                 </div>
 
-                <div className=" flex flex-col gap-3 ">
-                  <h2 className ="text-2xl text-rose-600 font-extrabold">CONTACT</h2>
+                <div className=" text-md flex flex-col gap-3  w-96 ">
+                  <h2 className ="lg:text-2xl text-rose-600 font-extrabold">CONTACT</h2>
                   <div className="flex flex-col gap-2">
 
                     {resumeContacts}
                   </div>
 
                   <div>
-                    <h2 className ="text-2xl text-rose-600 font-extrabold">My Tech Stack</h2>
+                    <h2 className ="lg:text-2xl text-rose-600 font-extrabold">My Tech Stack</h2>
                     <div className="flex flex-col gap-2">
                       {resumeTechStacks}
                     </div>
                   </div>
 
                   <div>
-                    <h2 className ="text-2xl text-rose-600 font-extrabold">EDUCATION</h2>
+                    <h2 className ="lg:text-2xl text-rose-600 font-extrabold">EDUCATION</h2>
                     <div>
                       {resumeEducation}
                     </div>
