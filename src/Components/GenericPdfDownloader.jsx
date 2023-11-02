@@ -11,10 +11,10 @@ const GenericPdfDownloader = ({rootElementId , downloadFileName}) => {
 
         pdf.setFontSize(20); // Set font size to 12 points
 
-        html2canvas(input, { scale: 2 })
+        html2canvas(input, { scale: 2 }, { autoPaging: true })
             .then((canvas) => {
                 const imgData = canvas.toDataURL('image/jpeg');
-                pdf.addImage(imgData, 'JPEG', 10, 10, 210, 297);
+                pdf.addImage(imgData, 'JPEG', 0, 0, 210, 297);
                 pdf.save(`${downloadFileName}.pdf`);
             })
     }
