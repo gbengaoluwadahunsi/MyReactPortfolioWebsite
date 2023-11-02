@@ -1,30 +1,32 @@
-
 import PropTypes from 'prop-types';
 import html2canvas from "html2canvas";
 import { jsPDF } from "jspdf";
+import { FaArrowDown} from 'react-icons/fa6'
 
 const GenericPdfDownloader = ({rootElementId , downloadFileName}) => {
 
     const downloadPdfDocument = () => {
         const input = document.getElementById(rootElementId);
-        html2canvas(input, { scale: 5 })
+        const pdf = new jsPDF('p', 'mm', 'a4');
+
+        pdf.setFontSize(20); // Set font size to 12 points
+
+        html2canvas(input, { scale: 2 })
             .then((canvas) => {
                 const imgData = canvas.toDataURL('image/jpeg');
-                const pdf = new jsPDF('p', 'mm', 'a4');
-                pdf.addImage(imgData, 'JPEG', 10, 10, 190, 100);
+                pdf.addImage(imgData, 'JPEG', 10, 10, 210, 297);
                 pdf.save(`${downloadFileName}.pdf`);
             })
     }
 
-    return <button onClick={downloadPdfDocument}>Download Pdf</button>
+    return <button className = "text-white w-fit place-self-end  p-2 rounded " onClick={downloadPdfDocument}> <FaArrowDown  className=' inline mr-1 rounded-full'/>Download Pdf</button>
 
 }
 
 GenericPdfDownloader.propTypes = {
-    rootElementId: PropTypes.number.isRequired, // Change the prop type to number if it's an integer
+    rootElementId: PropTypes.string.isRequired,
     downloadFileName: PropTypes.string.isRequired,
     
 };
 
 export default GenericPdfDownloader;
-

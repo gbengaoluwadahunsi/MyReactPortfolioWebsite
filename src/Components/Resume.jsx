@@ -15,6 +15,7 @@ import GenericPdfDownloader from "./GenericPdfdownloader";
 
 
 
+
 const Resume = () =>  {
 
   const exp = Experience.map(item => (
@@ -76,22 +77,31 @@ const Resume = () =>  {
 
    
 	return (
+    
 
     
 		<div className='bg-slate-200 height  '> 
-           <GenericPdfDownloader 
-          downloadFileName="Gbenga Oluwadahunsi Resume" 
-          rootElementId="divToDownload" 
-        />
-          <div className="py-10 grid grid-cols-1  mx-6 lg:mx-20"><Link to="/" className="lg:p-10 lg:text-2xl  font-extrabold place-self-end text-rose-600 ">Home</Link></div>
-          <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé</h2>  
-          <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32 p-10 rounded grid  text-gray-800  lg:grid-cols-7 lxl:gap-5">
+         
+          <div className="grid grid-cols-2 p-10 ">
+
+            <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-600 ">Home</Link>
+            <GenericPdfDownloader  
+             downloadFileName="Gbenga Oluwadahunsi Resume" 
+            rootElementId="divToDownload" 
+          
+             />
+            
+            </div>
+          <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé </h2>  
+          <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32 p-10 rounded grid  text-gray-800  lg:grid-cols-7 ">
             
             
                 <div className=" col-span-5 grid grid-col-1 gap-8">
                   <div className='flex flex-col gap-2'>
                     <h2 className ="lg:text-5xl text-rose-600 font-extrabold">Gbenga Oluwadahunsi</h2>
                     <span className='font-bold   lg:w-72 rounded   lg:text-2xl'>FrontEnd Developer</span>
+
+                    
                   </div>
 
                   <div className='lg:text-xl  text-justify'>
@@ -117,7 +127,7 @@ const Resume = () =>  {
                 </div>
 
                 <div className=" text-md flex flex-col gap-3  w-96 ">
-                  <h2 className ="lg:text-2xl text-rose-600 font-extrabold">CONTACT</h2>
+                  <h2 className ="lg:text-2xl text-rose-600 font-extrabold">CONTACT  </h2>
                   <div className="flex flex-col gap-2">
 
                     {resumeContacts}
