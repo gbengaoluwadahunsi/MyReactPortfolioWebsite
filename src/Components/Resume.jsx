@@ -10,7 +10,7 @@ import ResumeTechStackSection from "./ResumeTechStackSection";
 import EducationArray from "./EducationArray";
 import ResumeEducationSection from "./ResumeEducationSection";
 import ExperienceSection from "./ExperienceSection";
-import GenericPdfDownloader from "./GenericPdfdownloader";
+import GenericPdfDownloader from "./PdfDownloader";
 
 
 
