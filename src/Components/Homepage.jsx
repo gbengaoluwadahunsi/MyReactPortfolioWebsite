@@ -69,13 +69,14 @@ const Homepage = () => {
                         <span  className="font-bold">My Works</span>
                         <FontAwesomeIcon icon={faArrowRightLong} size='lg'/>
                   
-                  </Link>
-                 <div className="p-3 text-customBlue lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row  gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"> 
+                  </Link >
+
+                 <Link  to ="/resume" className="p-3 text-customBlue lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row  gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"> 
                     <span >Résumé </span>
                     <FontAwesomeIcon icon={faArrowRightLong} size='lg' />
                   
                  
-                 </div>
+                 </Link>
                 </div>
               
             </div>
