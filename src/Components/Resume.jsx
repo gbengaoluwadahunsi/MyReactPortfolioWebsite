@@ -93,7 +93,7 @@ const Resume = () =>  {
             
             </div>
           <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé </h2>  
-          <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32 p-10 rounded grid  text-gray-800  lg:grid-cols-7 ">
+          <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32  p-7 lg:p-10 rounded grid  text-gray-800  lg:grid-cols-7 ">
             
             
                 <div className=" col-span-5 grid grid-col-1 gap-8">
