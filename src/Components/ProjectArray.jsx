@@ -8,7 +8,7 @@ const CardArray = [
       menu : "Motiva",
       description : "Look up Motivational quotes and  create custom designs on shirts or share on social media.",
       link : "motiva-one.vercel.app",
-      linked : "https://motiva-one.netlify.app/"
+      linked : "https://motiva-one.vercel.app/"
 
       
     },
