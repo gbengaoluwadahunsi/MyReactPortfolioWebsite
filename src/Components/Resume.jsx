@@ -134,7 +134,7 @@ const Resume = () =>  {
                   </div>
 
                   <div>
-                    <h2 className ="lg:text-2xl text-rose-600 font-extrabold">My TECH STACK</h2>
+                    <h2 className ="lg:text-2xl text-rose-600 font-extrabold">SKILLS</h2>
                     <div className="flex flex-col gap-2">
                       {resumeTechStacks}
                     </div>

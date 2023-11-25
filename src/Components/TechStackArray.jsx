@@ -50,6 +50,11 @@ const TechStackArray = [
 
        {
         id : 9,
+        title  : "Version control"
+      
+       } ,
+       {
+        id : 10,
         title  : "Web Accessibility"
       
        } 

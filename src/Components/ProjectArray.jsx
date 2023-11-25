@@ -1,6 +1,6 @@
 
 
-const CardArray = [
+const MenuArray = [
     { 
       id : 1,
       img : 'motiva.png',
@@ -52,4 +52,4 @@ const CardArray = [
           
 ]
 
-export default  CardArray;
+export default  MenuArray;
