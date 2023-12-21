@@ -7,10 +7,9 @@ const MenuArray = [
       title : 'Motiva',
       menu : "Motiva",
       description : "Look up Motivational quotes and  create custom designs on shirts or share on social media.",
-      link : "motiva-one.vercel.app",
-      linked : "https://motiva-one.vercel.app/"
-
-      
+      stack : "HTML5, CSS3, JavaScript,TailwindCSS React.js, Node.js, Express.js , Firebase",
+      linked : "https://motiva-one.vercel.app/",
+      gitHubRepo: "https://github.com/gbengaoluwadahunsi/Motiva"      
     },
 
     { 
@@ -18,8 +17,9 @@ const MenuArray = [
         title : 'DropImagery',
         menu : "DropImagery",
         description : " An image gallery website, where you can view  and save some amazing images by different photographers; demo login details: user@example.com and 1password.",
-        link : "drop-imagery.netlify.app",
-        linked : "https://drop-imagery.netlify.app/"
+        stack : "HTML5, CSS3, JavaScript,TailwindCSS React.js, Firebase",
+        linked : "https://drop-imagery.netlify.app/",
+        gitHubRepo:"https://github.com/gbengaoluwadahunsi/Drag-and-drop-Image-Gallery"
         
     },
 
@@ -28,16 +28,18 @@ const MenuArray = [
         title : 'Tasty-Yumzie',
         menu : "Tasty Yumzie",
         description : " Food restaurant web application where customers can book reservations, order for food and drinks.",
-        link : "tasty-yumzie.netlify.app",
-        linked : "https://tasty-yumzie.netlify.app/"
+        stack : "HTML5, CSS3, JavaScript, PayPal",
+        linked : "https://tasty-yumzie.netlify.app/",
+        gitHubRepo: "https://github.com/gbengaoluwadahunsi/TastyYumZieWebAppCodes"
         
       },
       { id : 4,
         title: 'Gbénga',
         menu : "My Portfolio Website",
         description : "My website where I showcase my projects.",
-        link : "gbengaoluwadahunsi.vercel.app",
-        linked : "https://gbengaoluwadahunsi.vercel.app/"
+        stack : "HTML5, CSS3, JavaScript,TailwindCSS React.js",
+        linked : "https://gbengaoluwadahunsi.vercel.app/",
+        gitHubRepo: "https://github.com/gbengaoluwadahunsi/MyReactPortfolioWebsite"
         
       },
       { id : 5,
@@ -45,8 +47,9 @@ const MenuArray = [
         title : 'Haveelah-beauty',
         menu : "Haveelah Beauty",
         description : "Makeup and Beauty brand that exist to  enhance the inherent beauty of every woman.",
-        link : "haveelah-beauty.netlify.app",
-        linked : "https://haveelah-beauty.netlify.app/"
+        stack : "HTML5, CSS3, JavaScript",
+        linked : "https://haveelah-beauty.netlify.app/",
+        gitHubRepo: "https://github.com/gbengaoluwadahunsi/haveelahBeauty"
         
       },
           

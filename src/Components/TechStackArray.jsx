@@ -9,52 +9,58 @@ const TechStackArray = [
    
     {
         id : 2,
-        title  : "React"      
+        title  : "React.js"      
        } ,
 
+       {
+        id : 3,
+        title  : "Next.js"      
+       } ,
+
+
       {
-     id : 3,
+     id : 4,
      title  : "Python"    
     } ,
 
 
       {
-     id : 4,
+     id : 5,
      title  : " Tailwind CSS"    
    
     } ,
 
 
      {
-     id : 5,
+     id : 6,
      title  : "CSS3"
    
     } ,
 
     {
-        id : 6,
+        id : 7,
         title  : "HTML5"
       
        } ,
 
        {
-        id : 7,
+        id : 8,
         title  : "Node.js"      
        } ,
 
        {
-        id : 8,
+        id : 9,
         title  : "OOP"
       
        } ,
 
        {
-        id : 9,
+        id : 10,
         title  : "Version control"
       
        } ,
        {
-        id : 10,
+        id : 11,
         title  : "Web Accessibility"
       
        } 

@@ -10,7 +10,7 @@ import ResumeTechStackSection from "./ResumeTechStackSection";
 import EducationArray from "./EducationArray";
 import ResumeEducationSection from "./ResumeEducationSection";
 import ExperienceSection from "./ExperienceSection";
-import GenericPdfDownloader from "./PdfDownloader";
+import { FaArrowDown } from "react-icons/fa";
 
 
 
@@ -82,16 +82,12 @@ const Resume = () =>  {
     
 		<div className='bg-slate-200 height  '> 
          
-          <div className="grid grid-cols-2 p-10 ">
+          <div className="flex  justify-between  py-6 px-16 lg:p-6">
 
             <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-600 ">Home</Link>
-            <GenericPdfDownloader  
-             downloadFileName="Gbenga Oluwadahunsi Resume" 
-            rootElementId="divToDownload" 
-          
-             />
+            <a href="Gbenga Oluwadahunsi_Software_Developer.pdf" download className="text-customBlue place-self-end font-semibold"> <FaArrowDown className="inline"/> Download Résumé </a>
             
-            </div>
+          </div>
           <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé </h2>  
           <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32  p-7 lg:p-10 rounded grid  text-gray-800  lg:grid-cols-7 ">
             
