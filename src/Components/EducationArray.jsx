@@ -7,7 +7,7 @@ const EducationArray = [
      id : 1,
      title  : " Meta",
      year : "2023",
-     major : "Frontend Developer Professional Certification",
+     major : "Frontend Developer  Certification",
    
     } ,
    

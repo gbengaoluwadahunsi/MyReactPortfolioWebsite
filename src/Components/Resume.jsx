@@ -80,24 +80,23 @@ const Resume = () =>  {
     
 
     
-		<div className='bg-slate-200 height  '> 
+		<div className='bg-slate-200  height'> 
          
           <div className="flex  justify-between  py-6 px-16 lg:p-6">
-
             <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-600 ">Home</Link>
             <a href="Gbenga Oluwadahunsi_Software_Developer.pdf" download className="text-customBlue place-self-end font-semibold"> <FaArrowDown className="inline"/> Download Résumé </a>
-            
           </div>
-          <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé </h2>  
-          <main id="divToDownload" className="bg-white mt-6  mb-4 xl:mx-32  p-7 lg:p-10 rounded grid  text-gray-800  lg:grid-cols-7 ">
+
+          <h2 className='text-customBlue font-extrabold  md:text-xl lg:text-3xl text-center'>Résumé</h2>  
+
+          <main id="divToDownload" className="bg-white mt-4  mb-4 xl:mx-32  p-7 lg:p-10 rounded grid text-gray-800  lg:grid-cols-7 ">
             
             
                 <div className=" col-span-5 grid grid-col-1 gap-8">
+
                   <div className='flex flex-col gap-2'>
                     <h2 className ="lg:text-5xl text-rose-600 font-extrabold">Gbenga Oluwadahunsi</h2>
-                    <span className='font-bold   lg:w-72 rounded   lg:text-2xl'>FrontEnd Developer</span>
-
-                    
+                    <span className='font-bold   lg:w-72 rounded   lg:text-2xl'>FrontEnd Developer</span>                    
                   </div>
 
                   <div className='lg:text-xl  text-justify'>
@@ -109,17 +108,15 @@ const Resume = () =>  {
                   </div>
 
                   <div className='lg:text-xl  text-justify'>
-                  <h5 className='font-bold text-rose-600 '>EXPERIENCE</h5>
-                  {exp}
-
+                    <h5 className='font-bold text-rose-600 '>EXPERIENCE</h5>
+                    {exp}
                   </div>
 
                   <div className='lg:text-xl  text-justify flex flex-col '>
-                  <h2 className='font-bold text-rose-600 '>PROJECTS</h2>
-                  {resumeProjects}
-                 
-                  
-                </div>
+                    <h2 className='font-bold text-rose-600 '>PROJECTS</h2>
+                    {resumeProjects}                  
+                  </div>
+
                 </div>
 
                 <div className=" text-md flex flex-col gap-3  w-96 ">
