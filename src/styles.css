@@ -6,9 +6,7 @@ body {
 
 body::-webkit-scrollbar {
     display: none;  
-  }
-
-  
+  }  
    
   
   
@@ -242,7 +240,7 @@ body::-webkit-scrollbar {
   }
 
   .height{
-    height :100rem;
+    height:100rem;
   }
   
 
