@@ -87,9 +87,9 @@ const Homepage = () => {
             <div className=' py-4 px-8 lg:px-16 text-justify '>
               <h2 className=' text-center  font-extrabold md:text-2xl lg:text-5xl'>My Coding Xperience</h2>
               <div className='grid grid-rows-3 lg:text-xl  mt-4 lg:mt-14'>
-                <p>I started my software development journey in 2021 by taking a Python professional certification from the University of michigan and from there I dived more deeply into learning other technologies in the field </p>
-                <p className='-mt-4'>Freecodecamp gave me an  foot into learning the frontend development technologies and later attented the 100Devs fullstack software devlopemnt bootcamp, soon after this I enrolled for the Front-end developer professional certification from Meta and was certified.</p>           
-                <p>I have built tons of dynamic applications using React.js and Next.js and currently attending the FullStackOpen certification hosted by the University of Helsinki. I&apos;m committed to completing projects that will bring satisfaction to my clients and employer, I will love to also add that will long term goal is to be a Fullstack software and AI engineer</p>
+                <p>In 2021, I began my adventure into software development by obtaining a professional certification in Python from the University of Michigan. Subsequently, I delved deeper into the study of several other technologies in the area. </p>
+                <p className='-mt-4'>I first became familiar with front-end development technologies through Freecodecamp. I then attended the 100Devs full-stack software development bootcamp. Shortly after, I registered for and passed the Meta Front-end developer professional certification.</p>           
+                <p>Using React.js and Next.js, I have developed numerous dynamic applications. I am presently enrolled in the University of Helsinki's FullStackOpen certification program. I would also want to emphasize that my long-term aim is to become a full-stack software and AI engineer. I'm dedicated to finishing projects that will satisfy my clients and company.</p>
                   
               
               </div>
