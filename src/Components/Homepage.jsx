@@ -94,7 +94,7 @@ const Homepage = () => {
               
               </div>
             </div>
-            <img src={image} alt="software codes" loading="lazy" />
+            <img src={image} alt="software codes" loading="lazy"  className='h-full'/>
           </section>
 
           <section className='grid  grid-rows-1 lg:grid-rows-3  px-16  py-10'>
