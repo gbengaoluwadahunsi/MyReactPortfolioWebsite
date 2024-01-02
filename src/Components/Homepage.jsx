@@ -87,9 +87,9 @@ const Homepage = () => {
             <div className=' py-4 px-8 lg:px-16 text-justify '>
               <h2 className=' text-center  font-extrabold md:text-2xl lg:text-5xl'>My Coding Xperience</h2>
               <div className='grid grid-rows-3 lg:text-xl  mt-4 lg:mt-14'>
-                <p>With about ten years of experience as a university lecturer, I began my career in the field of biochemistry. </p>
-                <p className='-mt-4'> I took some bioinformatics courses because I was interested in the field, after realizing I wanted to create web and mobile applications, that&apos;s when I decided to go into software development.</p>           
-                <p >I went on a learning binge and picked up the skills that helped me become a sharp front-end developer. I&apos;m committed to completing projects that are easy to work on and satisfy clients and employers, and I&apos;m currently learning databases and back-end technologies.</p>
+                <p>I started my software development journey in 2021 by taking a Python professional certification from the University of michigan and from there I dived more deeply into learning other technologies in the field </p>
+                <p className='-mt-4'>Freecodecamp gave me an  foot into learning the frontend development technologies and later attented the 100Devs fullstack software devlopemnt bootcamp, soon after this I enrolled for the Front-end developer professional certification from Meta and was certified.</p>           
+                <p>I have built tons of dynamic applications using React.js and Next.js and currently attending the FullStackOpen certification hosted by the University of Helsinki. I&apos;m committed to completing projects that will bring satisfaction to my clients and employer, I will love to also add that will long term goal is to be a Fullstack software and AI engineer</p>
                   
               
               </div>
