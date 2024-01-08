@@ -17,7 +17,7 @@ const MenuArray = [
     img : 'countria.jpg',
     title :'Countria',
     menu : "Countria",
-    description : "Get information about countries and get weather data via light-speed APIs for every location on the planet. Forecast updated every minute.",
+    description : "Get information about countries and weather data via light-speed APIs for every location on the planet.",
     stack : "HTML5, CSS3, JavaScript, React.js",
     linked : "https://countria-tawny.vercel.app/",
     gitHubRepo: "https://github.com/gbengaoluwadahunsi/Countria"      
