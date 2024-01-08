@@ -13,7 +13,7 @@ const ResumeProjectSection = (props) => {
 }
 
 ResumeProjectSection.propTypes = {
-    id: PropTypes.number.isRequired,
+    id: PropTypes.number,
     title :  PropTypes.string.isRequired,
     description :  PropTypes.string.isRequired
 }

@@ -9,9 +9,9 @@ function ResumeContactSection(props) {
 }
 
 ResumeContactSection.propTypes = {
-  id: PropTypes.number.isRequired, 
+  id: PropTypes.number, 
   title: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  link: PropTypes.string,
 
   
 };

@@ -14,7 +14,7 @@ function ExperienceSection(props) {
 }
 
 ExperienceSection.propTypes = {
-    id: PropTypes.number.isRequired, // Change the prop type to number if it's an integer
+    id: PropTypes.number, // Change the prop type to number if it's an integer
     year: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,

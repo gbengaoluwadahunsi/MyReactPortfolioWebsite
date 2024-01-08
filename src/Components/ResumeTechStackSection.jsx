@@ -9,7 +9,7 @@ function ResumeTechStackSection(props) {
 }
 
 ResumeTechStackSection.propTypes = {
-    id: PropTypes.number.isRequired, // Change the prop type to number if it's an integer
+    id: PropTypes.number, // Change the prop type to number if it's an integer
     title: PropTypes.string.isRequired,    
 };
 

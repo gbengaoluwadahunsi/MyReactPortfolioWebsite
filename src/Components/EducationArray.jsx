@@ -3,40 +3,64 @@
 
 const EducationArray = [
 
-    {
-     id : 1,
-     title  : " Meta",
-     year : "2023",
-     major : "Frontend Developer  Certification",
-   
-    } ,
+    
    
     {
-       id : 2,
-       title  : "Universiti Sains Malaysia",
+       id : 1,
+       title  : "University of Helsinki",
        year : "2024",
-       major : "PhD Biomedicine (Pharmacology)",
-     
+       major : "Fullstack Web Development",     
      
       } ,
 
       {
+        id : 2,
+        title  : "University of Helsinki",
+        year : "2024",
+        major : "Introductory and Advance Python Programming",
+       } ,
+ 
+
+      {
         id : 3,
-        title  : "University of Ibadan",
-        year : "2015",
-        major : "MSc Industrial Biochemistry",
+        title  : "Meta",
+        year : "2023",
+        major : "Frontend Developer  Certification",
+      
+       } ,
+
+
+       {
+        id : 4,
+        title  : "Meta",
+        year : "2023",
+        major : "Programming with Javascript",
       
        } ,
 
        {
-        id : 4,
+        id : 5,
+        title  : "Dataquest",
+        year : "2021",
+        major : "Python for Data Science",
+      
+       } ,
+
+       {
+        id : 6,
+        title  : "LinkedIn",
+        year : "2021",
+        major : "Programming Foundations",
+      
+       } ,
+
+       {
+        id : 7,
         title  : "Adekunle Ajasin  University",
         year : "2010",
         major : "BSc Biochemistry",
       
-       } ,
-
-   
+       }    
    ]
    
    export default EducationArray
