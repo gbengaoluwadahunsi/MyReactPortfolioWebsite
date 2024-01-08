@@ -5,6 +5,7 @@ import Homepage from './Components/Homepage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import  MyWorks from   './Components/My-works'
 import Resume from './Components/Resume'
+import ScrollUp from './Components/scrollUp';
 
 
 
@@ -27,7 +28,9 @@ const App = () => {
                 <Route path='/resume' element={<Resume pdfUrl={pdfUrl} />} />
             </Routes>
           </Router>
-      </div>    
+          <ScrollUp />
+      </div>  
+
 
     </>
   )

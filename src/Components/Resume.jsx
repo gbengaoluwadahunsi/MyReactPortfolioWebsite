@@ -141,10 +141,6 @@ const Resume = () =>  {
                   </div>
 
                 </div>
-
-                
-                
-              
             </main>
   </div>
      

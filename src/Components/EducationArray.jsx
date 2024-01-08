@@ -17,7 +17,7 @@ const EducationArray = [
         id : 2,
         title  : "University of Helsinki",
         year : "2024",
-        major : "Introductory and Advance Python Programming",
+        major : "Introductory and Advanced Python Programming",
        } ,
  
 
@@ -25,7 +25,7 @@ const EducationArray = [
         id : 3,
         title  : "Meta",
         year : "2023",
-        major : "Frontend Developer  Certification",
+        major : "Frontend Developer Professional Certification",
       
        } ,
 
@@ -34,7 +34,7 @@ const EducationArray = [
         id : 4,
         title  : "Meta",
         year : "2023",
-        major : "Programming with Javascript",
+        major : "Programming with JavaScript",
       
        } ,
 
