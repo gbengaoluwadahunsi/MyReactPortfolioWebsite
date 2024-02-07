@@ -6,7 +6,7 @@ const MenuArray = [
     img : 'Pizzon.jpg',
     title :'Pizzon',
     menu : "Pizzon",
-    description : "A fullstack Pizza ordering  web app where customers can order pizza, made payment and the Admin too can view and edit orders.",
+    description : "A fullstack Pizza ordering  web app,customers can order pizza, made payment and the Admin too can view and edit orders.",
     stack : "HTML5, CSS3, JavaScript,Tailwind CSS, Next.js",
     linked : "https://pizza-ordering-webapp-psi.vercel.app/",
     gitHubRepo: "https://github.com/gbengaoluwadahunsi/Pizza-Ordering-Webapp"      
@@ -29,7 +29,7 @@ const MenuArray = [
       img : 'motiva.jpg',
       title : 'Motiva',
       menu : "Motiva",
-      description : "Look up Motivational quotes, retrieve based on keyword or author and  create custom designs on shirts or share on social media.",
+      description : "Look up Motivational quotes, retrieve based on keyword or author, create custom designs on shirts/share on social media.",
       stack : "HTML5, CSS3,Tailwind CSS React.js, Express.js , Firebase",
       linked : "https://motiva-one.vercel.app/",
       gitHubRepo: "https://github.com/gbengaoluwadahunsi/Motiva"      
@@ -40,7 +40,7 @@ const MenuArray = [
         img : 'dropImagery.jpg',
         title : 'DropImagery',
         menu : "DropImagery",
-        description : " Web app to view and save some amazing images by different photographers; demo login details: user@example.com and 1password.",
+        description : " Web app to view/save some amazing images by different photographers;login details: user@example.com and 1password.",
         stack : "HTML5, CSS3, JavaScript,Tailwind CSS React.js, Firebase",
         linked : "https://drop-imagery.netlify.app/",
         gitHubRepo:"https://github.com/gbengaoluwadahunsi/Drag-and-drop-Image-Gallery"
