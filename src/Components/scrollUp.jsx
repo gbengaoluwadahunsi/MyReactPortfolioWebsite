@@ -1,34 +1,36 @@
-import { FaArrowCircleUp } from 'react-icons/fa';
-import { useEffect , useState } from 'react';
- 
- const ScrollUp = () => {
+import { FaArrowCircleUp } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
-  const [isVisible, setIsVisible] = useState(false)
+const ScrollUp = () => {
+  const [isVisible, setIsVisible] = useState(false);
   const goTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
-  };    
+  };
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
+    window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         setIsVisible(true);
       } else {
         setIsVisible(false);
       }
     });
-   }, []);
+  }, []);
 
-   return (
-    <>     
-        <button className="btn-scrollTop" style={{display: isVisible ? 'block':'none'}} onClick={goTop}>
-            <FaArrowCircleUp className = " text-rose-500"/>
-        </button>
-
+  return (
+    <>
+      <button
+        className="btn-scrollTop"
+        style={{ display: isVisible ? "block" : "none" }}
+        onClick={goTop}
+      >
+        <FaArrowCircleUp className=" text-rose-500" />
+      </button>
     </>
-   )
- }
- 
- export default ScrollUp
+  );
+};
+
+export default ScrollUp;
