@@ -20,8 +20,8 @@ const Homepage = () => {
     <>
       <Navbar id="top" />
       <main className=" lg:row-span-3  grid  grid-rows-2 lg:-mt-12 place-items-center">
-        <div className=" text-[2rem] md:text-6xl lg:text-8xl text-center">
-          <div className="lg:my-6  text-rose-400 lg:text-rose-600">
+        <div className=" text-[2rem]  font-bold md:text-6xl lg:text-8xl text-center">
+          <div className="lg:my-6  text-rose-500 lg:text-rose-600">
             <span className=" text-slate-100 key">F</span>
             <span className="key">U</span>
             <span className="key">L</span>
@@ -33,7 +33,7 @@ const Homepage = () => {
             <span className="key">K</span>
           </div>
 
-          <div className=" text-rose-400 lg:text-rose-600">
+          <div className=" text-rose-500 lg:text-rose-600">
             <span className="key">D</span>
             <span className="key">E</span>
             <span className="key">V</span>
@@ -116,11 +116,11 @@ const Homepage = () => {
             My Tech Stack
           </h2>
 
-          <p className="hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6 text-rose-400 text-center">
+          <p className="hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6 text-rose-500 text-center">
             For my projects, I have leveraged a combination of HTML5, CSS3,
-            vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js,Express, Mongoose
-            MongoDB, and React.js to develop robust and dynamic web
-            applications.
+            vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API,
+            Node.js,Express, Mongoose MongoDB, and React.js to develop robust
+            and dynamic web applications.
           </p>
         </div>
 
