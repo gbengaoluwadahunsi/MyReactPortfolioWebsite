@@ -20,20 +20,21 @@ const Homepage = () => {
     <>
       <Navbar id="top" />
       <main className=" lg:row-span-3  grid  grid-rows-2 lg:-mt-12 place-items-center">
-        <div className=" text-2xl md:text-6xl lg:text-8xl text-center">
-          <div className="lg:my-6 text-rose-600">
+        <div className=" text-4xl md:text-6xl lg:text-8xl text-center">
+          <div className="lg:my-6  text-rose-400 lg:text-rose-600">
             <span className=" text-slate-100 key">F</span>
-            <span className="key">R</span>
-            <span className="key">O</span>
-            <span className="key">N</span>
+            <span className="key">U</span>
+            <span className="key">L</span>
+            <span className="key">L</span>
+            <span className="key">S</span>
             <span className="key">T</span>
-            <span className="key">E</span>
-            <span className="key">N</span>
-            <span className="key">D</span>
+            <span className="key">A</span>
+            <span className="key">C</span>
+            <span className="key">K</span>
           </div>
 
-          <div className="text-rose-600">
-            <span className=" key">D</span>
+          <div className=" text-rose-400 lg:text-rose-600">
+            <span className="key">D</span>
             <span className="key">E</span>
             <span className="key">V</span>
             <span className="key">E</span>
@@ -54,7 +55,7 @@ const Homepage = () => {
           <div className="flex  justify-center items-center  mt-4 space-x-2">
             <Link
               to="/myworks"
-              className="p-3 text-customBlue  lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"
+              className="p-3 text-customBlue  lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row gap-2 place-items-center justify-around rounded  bg-rose-400 lg:bg-rose-600 hover:text-slate-100 cursor-pointer"
             >
               <span className="font-bold">My Works</span>
               <FontAwesomeIcon icon={faArrowRightLong} size="lg" />
@@ -62,7 +63,7 @@ const Homepage = () => {
 
             <Link
               to="/resume"
-              className="p-3 text-customBlue lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row  gap-2 place-items-center justify-around rounded bg-rose-600 hover:text-slate-100 cursor-pointer"
+              className="p-3 text-customBlue lg:w-1/4 font-bold text-sm lg:text-xl flex flex-row  gap-2 place-items-center justify-around rounded bg-rose-400 lg:bg-rose-600 hover:text-slate-100 cursor-pointer"
             >
               <span>Résumé </span>
               <FontAwesomeIcon icon={faArrowRightLong} size="lg" />

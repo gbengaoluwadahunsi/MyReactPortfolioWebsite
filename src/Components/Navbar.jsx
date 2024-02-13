@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <header className="">
       <div className="grid grid-cols-2 lg:px-16 lg:p-10">
-        <span className=" text-xl lg:text-3xl inline-block font-extrabold p-6 text-rose-600 justify-self-start  cursor-pointer">
+        <span className=" text-xl lg:text-3xl inline-block font-extrabold p-6  text-rose-400 lg:text-rose-600 justify-self-start  cursor-pointer">
           Gbénga
         </span>
 
@@ -50,8 +50,8 @@ function Navbar() {
             }`}
             onClick={toggleMenu}
           >
-            <span className="w-10 h-1 bg-rose-600"></span>
-            <span className="w-6 h-1 justify-self-end bg-rose-600"></span>
+            <span className="w-10 h-1  bg-rose-400 lg:bg-rose-600"></span>
+            <span className="w-6 h-1 justify-self-end bg-rose-400 lg:bg-rose-600"></span>
           </div>
 
           <div
