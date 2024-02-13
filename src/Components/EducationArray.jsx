@@ -17,7 +17,7 @@ const EducationArray = [
     id: 3,
     title: "University of Helsinki",
     year: "2024",
-    major: "Introductory and Advanced Python Programming",
+    major: "Python Programming Course",
   },
 
   {

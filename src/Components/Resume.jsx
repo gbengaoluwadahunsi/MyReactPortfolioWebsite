@@ -47,15 +47,15 @@ const Resume = () => {
   ));
 
   return (
-    <div className="bg-slate-500 h-[100rem]">
-      <div className="flex  justify-between  py-6 px-16 lg:p-6">
-        <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-600 ">
+    <div className="bg-slate-500 lg:h-[100rem] p-6">
+      <div className="flex flex-row justify-between ">
+        <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-500 ">
           Home
         </Link>
         <a
           href="Gbenga Oluwadahunsi_Software_Developer.pdf"
           download
-          className="text-customBlue place-self-end font-semibold"
+          className="text-customBlue  font-semibold"
         >
           {" "}
           <FaArrowDown className="inline" /> Download Résumé{" "}
@@ -66,23 +66,20 @@ const Resume = () => {
         Résumé
       </h2>
 
-      <main
-        id="divToDownload"
-        className="bg-white mt-4  mb-4 xl:mx-32  p-7 lg:p-10 rounded grid text-gray-800  gap-4 lg:grid-cols-8"
-      >
-        <div className=" col-span-5 grid grid-col-1 gap-8">
-          <div className="flex flex-col gap-2">
-            <h2 className="lg:text-5xl text-rose-600 font-extrabold">
+      <main className="bg-white rounded  text-gray-800 flex flex-col md:flex-row">
+        <div className="p-4 lg:p-16">
+          <div>
+            <h2 className=" md:text-3xl lg:text-5xl text-rose-500 font-extrabold">
               Gbenga Oluwadahunsi
             </h2>
             <span className="font-bold   lg:w-72 rounded   lg:text-2xl">
-              FrontEnd Developer
+              FullStack Developer
             </span>
           </div>
 
-          <div className="lg:text-xl  text-justify">
-            <h5 className="font-bold text-rose-600">SUMMARY</h5>
-            <p className="w-3/4">
+          <div className="lg:text-xl  text-justify mt-8 lg:mt-16">
+            <h5 className="font-bold text-rose-500">SUMMARY</h5>
+            <p className="">
               A creative, detail-oriented Fullstack Engineer with a strong
               interest in Artificial Intelligence. I have a track record of
               creating and launching successful frontend and backend web
@@ -90,28 +87,28 @@ const Resume = () => {
             </p>
           </div>
 
-          <div className="lg:text-xl  text-justify">
-            <h5 className="font-bold text-rose-600 ">EXPERIENCE</h5>
+          <div className="lg:text-xl  text-justify mt-8 lg:mt-16">
+            <h5 className="font-bold text-rose-500 ">EXPERIENCE</h5>
             {exp}
           </div>
 
-          <div className="lg:text-xl  text-justify flex flex-col ">
-            <h2 className="font-bold text-rose-600 ">PROJECTS</h2>
+          <div className="lg:text-xl  text-justify mt-8 lg:mt:16">
+            <h2 className="font-bold text-rose-500 ">PROJECTS</h2>
             {resumeProjects}
           </div>
         </div>
 
-        <div className=" text-md flex flex-col gap-3  w-96 ">
-          <h2 className="lg:text-2xl text-rose-600 font-extrabold">CONTACT </h2>
+        <div className=" text-md flex flex-col gap-3 p-4 md:w-96 md:p-16 ">
+          <h2 className="lg:text-2xl text-rose-500 font-extrabold">CONTACT </h2>
           <div className="flex flex-col gap-2">{resumeContacts}</div>
 
           <div>
-            <h2 className="lg:text-2xl text-rose-600 font-extrabold">SKILLS</h2>
+            <h2 className="lg:text-2xl text-rose-500 font-extrabold">SKILLS</h2>
             <div className="flex flex-col gap-2">{resumeTechStacks}</div>
           </div>
 
           <div>
-            <h2 className="lg:text-2xl text-rose-600 font-extrabold">
+            <h2 className="lg:text-2xl text-rose-500 font-extrabold">
               EDUCATION
             </h2>
             <div>{resumeEducation}</div>

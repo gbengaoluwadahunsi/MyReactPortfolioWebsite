@@ -14,7 +14,7 @@ const Specials = (props) => {
           <p className="px-6 text-center mt-10">{props.description}</p>
         </div>
 
-        <div className=" bg-customBlue h-32 rounded-b-lg px-6 py-2 content-center">
+        <div className=" bg-customBlue h-[9rem] lg:h-32 rounded-b-lg px-6 py-2 content-center">
           <h2 className="lg:text-xl text-zinc-300">{props.menu}</h2>
           <div className="grid grid-cols-2 mt-1">
             {" "}
