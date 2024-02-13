@@ -46,7 +46,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="p-4 lg:-mt-16">
+        <div className="p-4 -mt-[8rem] md:-mt-8 lg:-mt-16">
           <h3 className="font-semibold  lg:w-2/3   mx-auto  text-center lg:text-xl ">
             I flourish at building and shipping innovative digital products that
             solve real-time world problems.
