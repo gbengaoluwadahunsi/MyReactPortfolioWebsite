@@ -19,8 +19,8 @@ const Homepage = () => {
   return (
     <>
       <Navbar id="top" />
-      <main className=" lg:row-span-3  grid  grid-rows-2 lg:-mt-12 place-items-center">
-        <div className=" text-[2rem]  font-extrabold md:text-6xl lg:text-8xl text-center">
+      <main className=" lg:row-span-3  grid grid-rows-2 lg:-mt-12 place-items-center h-screen">
+        <div className=" text-[2rem]  font-extrabold md:text-6xl lg:text-[8rem] text-center">
           <div className="lg:my-6  text-rose-500 lg:text-rose-600">
             <span className=" text-slate-100 key">F</span>
             <span className="key">U</span>
