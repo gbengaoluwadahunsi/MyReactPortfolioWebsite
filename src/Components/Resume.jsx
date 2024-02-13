@@ -47,7 +47,7 @@ const Resume = () => {
   ));
 
   return (
-    <div className="bg-slate-200  height">
+    <div className="bg-slate-500 h-[110rem]">
       <div className="flex  justify-between  py-6 px-16 lg:p-6">
         <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-600 ">
           Home
@@ -83,11 +83,10 @@ const Resume = () => {
           <div className="lg:text-xl  text-justify">
             <h5 className="font-bold text-rose-600">SUMMARY</h5>
             <p className="w-3/4">
-              A creative, detail-oriented Front-end developer with a strong
+              A creative, detail-oriented Fullstack Engineer with a strong
               interest in Artificial Intelligence. I have a track record of
-              creating and launching successful front and backend web
-              applications and I&apos;m looking to contribute my skills to a
-              global tech company.
+              creating and launching successful frontend and backend web
+              applications.
             </p>
           </div>
 

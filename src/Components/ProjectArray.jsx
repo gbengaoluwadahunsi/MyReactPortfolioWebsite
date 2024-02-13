@@ -1,6 +1,20 @@
 const MenuArray = [
   {
     id: 1,
+    img: "knocks.png",
+    title: "Knocks",
+    menu: "Knocks",
+    description:
+      "A fullstack web app where users can add notes, toggle on and off the importance of existing note or delete a note.",
+    stack:
+      "HTML5, CSS3, JavaScript, CSS, React.Js, Node.Js, Express.Js, MongoDB, Mongoose,NoSQL",
+    linked: "https://knocks-api.onrender.com/",
+    gitHubRepo:
+      "https://github.com/gbengaoluwadahunsi/gbengaoluwadahunsi-FullStackOpenExercises-PART3",
+  },
+
+  {
+    id: 2,
     img: "Pizzon.jpg",
     title: "Pizzon",
     menu: "Pizzon",
@@ -12,7 +26,7 @@ const MenuArray = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: "countria.jpg",
     title: "Countria",
     menu: "Countria",
@@ -24,7 +38,7 @@ const MenuArray = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: "motiva.jpg",
     title: "Motiva",
     menu: "Motiva",
@@ -36,7 +50,7 @@ const MenuArray = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: "dropImagery.jpg",
     title: "DropImagery",
     menu: "DropImagery",
@@ -49,7 +63,7 @@ const MenuArray = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: "tasty-yumzie.jpg",
     title: "Tasty-Yumzie",
     menu: "Tasty Yumzie",
@@ -60,7 +74,7 @@ const MenuArray = [
     gitHubRepo: "https://github.com/gbengaoluwadahunsi/TastyYumZieWebAppCodes",
   },
   {
-    id: 6,
+    id: 7,
     img: "Gbenga.jpg",
     title: "Gbénga",
     menu: "My Portfolio Website",
@@ -71,7 +85,7 @@ const MenuArray = [
     gitHubRepo: "https://github.com/gbengaoluwadahunsi/MyReactPortfolioWebsite",
   },
   {
-    id: 7,
+    id: 8,
     img: "Haveelah.jpg",
     title: "Haveelah-beauty",
     menu: "Haveelah Beauty",

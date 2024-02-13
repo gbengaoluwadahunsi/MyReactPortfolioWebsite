@@ -36,20 +36,30 @@ const TechStackArray = [
 
   {
     id: 8,
-    title: "Node.js",
+    title: "Node.Js",
   },
 
   {
     id: 9,
-    title: "OOP",
+    title: "Mongoose",
   },
 
   {
     id: 10,
+    title: "MongoDB",
+  },
+
+  {
+    id: 11,
+    title: "Express.Js",
+  },
+
+  {
+    id: 12,
     title: "Version control",
   },
   {
-    id: 11,
+    id: 13,
     title: "Web Accessibility",
   },
 ];

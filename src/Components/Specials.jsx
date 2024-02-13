@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const Specials = (props) => {
   return (
     <>
-      <section className="bg-white grid mx-0 lg:grid-rows-4 pt-2 w-3/4 lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer  hover:-translate-x-4">
+      <section className="bg-white grid mx-0 lg:grid-rows-4 pt-2 w-3/4 lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer h-[24rem] hover:-translate-x-4 mb-20">
         <div className="row-span-3 place-self-center">
           <img
             className="h-full rounded-xl lg:w-92   px-4 "
@@ -14,7 +14,7 @@ const Specials = (props) => {
           <p className="px-6 text-center mt-10">{props.description}</p>
         </div>
 
-        <div className=" bg-customBlue  rounded-b-lg px-6 py-2">
+        <div className=" bg-customBlue h-32 rounded-b-lg px-6 py-2 content-center">
           <h2 className="lg:text-xl text-zinc-300">{props.menu}</h2>
           <div className="grid grid-cols-2 mt-1">
             {" "}
@@ -35,7 +35,7 @@ const Specials = (props) => {
             >
               <FaGithub
                 size="1.6rem"
-                className="text-white hover:text-green-100"
+                className="text-white hover:text-rose-500"
               />
             </a>
           </div>

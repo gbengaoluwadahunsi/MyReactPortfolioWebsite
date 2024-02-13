@@ -76,14 +76,14 @@ const Homepage = () => {
           <h2 className=" text-center  font-extrabold md:text-2xl lg:text-5xl">
             My Coding Xperience
           </h2>
-          <div className="grid grid-rows-3 lg:text-xl  mt-4 lg:mt-14">
+          <div className="flex flex-col gap-10  mt-4 lg:mt-8 lg:text-xl">
             <p>
               In 2021, I began my adventure into software development by
               obtaining a professional certification in Python from the
               University of Michigan. Subsequently, I delved deeper into the
               study of several other technologies in the area.{" "}
             </p>
-            <p className="-mt-4">
+            <p className="">
               I first became familiar with front-end development technologies
               through Freecodecamp. I then attended the 100Devs full-stack
               software development bootcamp. Shortly after, I registered for and
