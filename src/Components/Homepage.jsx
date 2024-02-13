@@ -20,7 +20,7 @@ const Homepage = () => {
     <>
       <Navbar id="top" />
       <main className=" lg:row-span-3  grid  grid-rows-2 lg:-mt-12 place-items-center">
-        <div className=" text-4xl md:text-6xl lg:text-8xl text-center">
+        <div className=" text-[2rem] md:text-6xl lg:text-8xl text-center">
           <div className="lg:my-6  text-rose-400 lg:text-rose-600">
             <span className=" text-slate-100 key">F</span>
             <span className="key">U</span>
@@ -92,10 +92,13 @@ const Homepage = () => {
             <p>
               Using React.js and Next.js, I have developed numerous dynamic
               applications. I am presently enrolled in the University of
-              Helsinki&apos;s FullStackOpen certification program. I would also
-              want to emphasize that my long-term aim is to become a full-stack
-              software and AI engineer. I&apos;m dedicated to finishing projects
-              that will satisfy my clients and company.
+              Helsinki&apos;s FullStackOpen certification program where I learnt
+              how to build and test APIs with Node/Express, use some middleware,
+              build databases and connect my API to MongoDB Atlas through the
+              help of MOngoose. I would also want to emphasize that my long-term
+              aim is to excel everyday as a full-stack software. I&apos;m
+              dedicated to finishing projects that will satisfy my clients and
+              company.
             </p>
           </div>
         </div>
@@ -115,7 +118,7 @@ const Homepage = () => {
 
           <p className="hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6 text-rose-400 text-center">
             For my projects, I have leveraged a combination of HTML5, CSS3,
-            vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js,
+            vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Node.js,Express, Mongoose
             MongoDB, and React.js to develop robust and dynamic web
             applications.
           </p>
