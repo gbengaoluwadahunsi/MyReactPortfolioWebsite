@@ -47,7 +47,7 @@ const Resume = () => {
   ));
 
   return (
-    <div className="bg-slate-500 h-[110rem]">
+    <div className="bg-slate-500 h-[106rem]">
       <div className="flex  justify-between  py-6 px-16 lg:p-6">
         <Link to="/" className="lg:text-2xl   font-extrabold  text-rose-600 ">
           Home
