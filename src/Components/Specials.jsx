@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const Specials = (props) => {
   return (
     <>
-      <section className="bg-white grid mx-0 lg:grid-rows-4 pt-2 w-3/4 lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer h-[32rem] hover:-translate-x-4 mb-20">
+      <section className="bg-white grid mx-0 lg:grid-rows-4 pt-2 w-3/4 lg:w-full rounded-lg place-self-center text-customBlue font-medium duration-500  transition-transform transform cursor-pointer h-[28rem] hover:-translate-x-4 mb-20">
         <div className="row-span-3 place-self-center">
           <img
             className="h-full rounded-xl lg:w-92   px-4 "
