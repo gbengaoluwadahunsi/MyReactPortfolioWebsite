@@ -116,7 +116,7 @@ const Homepage = () => {
             My Tech Stack
           </h2>
 
-          <p className="hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6 text-rose-500 text-center">
+          <p className="hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6  text-center">
             For my projects, I have leveraged a combination of HTML5, CSS3,
             vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API,
             Node.js,Express, Mongoose MongoDB, and React.js to develop robust
