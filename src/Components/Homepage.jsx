@@ -85,20 +85,20 @@ const Homepage = () => {
             </p>
             <p className="">
               I first became familiar with front-end development technologies
-              through Freecodecamp. I then attended the 100Devs full-stack
-              software development bootcamp. Shortly after, I registered for and
-              passed the Meta Front-end developer professional certification.
+              through Freecodecamp. I am a graduate of the FullStack Software
+              Development program from the University of Helsinki and FullStack
+              Web Development from AltSchool Africa, where I have gained
+              knowledge of how to utilize Node/Express to develop and test APIs,
+              create databases, employ middleware, and connect my API to MongoDB
+              Atlas with the aid of Mongoose. I recently completed the Meta
+              Fullstack Developer certification where I built fullstack
+              applications using React on the frontend and Django on the
+              bacakend.
             </p>
             <p>
-              Using React.js and Next.js, I have developed numerous dynamic
-              applications. I am presently enrolled in the University of
-              Helsinki&apos;s FullStackOpen certification program where I learnt
-              how to build and test APIs with Node/Express, use some middleware,
-              build databases and connect my API to MongoDB Atlas through the
-              help of MOngoose. I would also want to emphasize that my long-term
-              aim is to excel everyday as a full-stack software. I&apos;m
-              dedicated to finishing projects that will satisfy my clients and
-              company.
+              Several dynamic applications have been made by me using React.js
+              and Next.js. My commitmentlies in completing projects that would
+              bring satisfaction to both my clients and my firm.
             </p>
           </div>
         </div>
