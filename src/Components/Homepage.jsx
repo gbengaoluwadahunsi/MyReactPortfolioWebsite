@@ -118,8 +118,8 @@ const Homepage = () => {
 
           <p className="hidden md:block lg:block lg:text-xl w-3/4 mx-auto font-semibold  pt-6  text-center">
             For my projects, I have leveraged a combination of HTML5, CSS3,
-            vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API,
-            Node.js,Express, Mongoose MongoDB, and React.js to develop robust
+            vanilla JavaScript, Python, Tailwind CSS, GitHub, REST API, Next.js
+            Node.js,Express, Mongoose MongoDB, Django and React.js to develop robust
             and dynamic web applications.
           </p>
         </div>
@@ -128,7 +128,7 @@ const Homepage = () => {
           <img
             src={imageHTML}
             alt="HTML5 icon"
-            className=" hover:rounded-full hover:bg-white p-2"
+        
           />
           <img
             src={imageCSS}

@@ -10,6 +10,7 @@ const Specials = (props) => {
             className="h-full rounded-xl lg:w-92   px-4 "
             src={`Images/${props.img}`}
             alt={`${props.menu} Image`}
+           style={{ objectFit: "cover"}}
           />
           <p className="px-6 text-center mt-10">{props.description}</p>
         </div>

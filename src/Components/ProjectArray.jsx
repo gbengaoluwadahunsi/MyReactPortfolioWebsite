@@ -27,7 +27,7 @@ const MenuArray = [
 
   {
     id: 3,
-    img: "countria.jpg",
+    img: "countria.png",
     title: "Countria",
     menu: "Countria",
     description:

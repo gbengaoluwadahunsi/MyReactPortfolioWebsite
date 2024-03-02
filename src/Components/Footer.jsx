@@ -8,7 +8,9 @@ function Footer() {
   return (
     <footer className="grid grid-rows-4 px-20 py-10 text-sm lg:text-xl bg-slate-950 h-64">
       <section className="row-span-3 grid grid-cols-2 border-b-4 border-rose-500 lg:border-rose-600 ">
-        <Link className="text-xl lg:text-3xl inline-block font-extrabold  text-rose-500 lg:text-rose-600 justify-self-start cursor-pointer">
+        <Link to="/"
+          className="text-xl lg:text-3xl inline-block font-extrabold  text-rose-500 lg:text-rose-600 justify-self-start cursor-pointer"
+        >
           Gbénga
         </Link>
         {currentPage === "" && (
@@ -34,7 +36,6 @@ function Footer() {
         {currentPage === "resume" && (
           <div className="grid grid-cols-1 gap-4 h-12  font-bold menu">
             <Link to="/" className="link">
-              {" "}
               Home
             </Link>
             <Link to="/myworks" className="link">

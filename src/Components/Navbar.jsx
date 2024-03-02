@@ -35,7 +35,7 @@ function Navbar() {
     <header className="">
       <div className="grid grid-cols-2 lg:px-16 lg:p-10">
         <span className=" text-xl lg:text-3xl inline-block font-extrabold p-6  text-rose-500 lg:text-rose-600 justify-self-start  cursor-pointer">
-          Gbénga
+          <Link to="/"> Gbénga</Link>
         </span>
 
         <div
